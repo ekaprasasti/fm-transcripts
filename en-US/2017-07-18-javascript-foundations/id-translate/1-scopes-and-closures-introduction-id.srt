@@ -1,0 +1,303 @@
+WEBVTT
+
+1
+00: 00: 00.360 --> 00: 00: 03.606
+& gt; & gt; Kyle Simpson: Jadi, mari kita ubah
+perhatian sekarang ke inti kedua
+
+2
+00: 00: 03.606 --> 00: 00: 08.087
+Fondasi Javascript, Scope,
+lexical scope system dan
+
+3
+00: 00: 08.087 --> 00: 00: 12.271
+khususnya pola closure
+dibangun di atas itu.
+
+4
+00: 00: 12.271 --> 00: 00: 16.610
+[BATUK] Ini akan menjadi kurikulum 
+yang paling intensiv dalam workshop ini.
+
+5
+00: 00: 16.610 --> 00: 00: 21.756
+Jadi, berharap ada banyak
+latihan yang kita ulas di sini,
+
+6
+00: 00: 21.756 --> 00: 00: 24.249
+tiga atau empat saya pikir setidaknya.
+
+7
+00: 00: 24.249 --> 00: 00: 28.120
+Latihan di mana kita mengulanginya
+pada topik ini dan ada banyak hal yang harus dilalui.
+
+8
+00: 00: 28.120 --> 00: 00: 31.754
+Jadi, Pastikan kamu menjaga dirimu sendiri,
+
+9
+00: 00: 31.754 --> 00: 00: 35.114
+Anda menjaga otak Anda tetap segar dalam topik ini.
+
+10
+00: 00: 35.114 --> 00: 00: 38.210
+Jika Anda menonton online atau
+menonton kemudian, pastikan Anda kembali dan
+
+11
+00: 00: 38.210 --> 00: 00: 40.870
+tinjau materi yang tidak Anda lewatkan.
+
+12
+00: 00: 40.870 --> 00: 00: 44.800
+Jadi, ke mana kita ingin pergi adalah yang pertama mencari
+bagaimana lexical scope bekerja dalam hal
+
+13
+00: 00: 44.800 --> 00: 00: 47.200
+nesting, bagaimana lingkup ini bersarang bersama.
+
+14
+00: 00: 48.948 --> 00: 00: 52.477
+Kemudian kita ingin berbicara tentang suatu topik, berapa banyak dari
+Anda pernah mendengar tentang hoisting sebelumnya?
+
+15
+00: 00: 52.477 --> 00: 00: 53.530
+Pernahkah Anda mendengar istilah itu?
+
+16
+00: 00: 53.530 --> 00: 00: 56.290
+Oke, jadi kita akan membicarakan tentang hoisting.
+
+17
+00: 00: 56.290 --> 00: 00: 59.610
+Hoisting sudah dibuat,
+itu tidak nyata, itu tidak ada.
+
+18
+00: 00: 59.610 --> 00: 01: 00.510
+Jika Anda melihat specnya,
+
+19
+00: 01: 00.510 --> 00: 01: 03.970
+tidak ada keberadaan kata itu
+hoist karena itu bukan hal yang nyata.
+
+20
+00: 01: 03.970 --> 00: 01: 07.100
+Ini sebenarnya metafora untuk
+menjelaskan cara kerja kompilator.
+
+21
+00: 01: 07.100 --> 00: 01: 10.120
+Dan omong-omong, apakah Anda tahu
+JavaScript adalah bahasa compiler?
+
+22
+00: 01: 10.120 --> 00: 01: 11.460
+Kita akan membahas semua itu.
+
+23
+00: 01: 11.460 --> 00: 01: 15.340
+Jadi kita akan berbicara tentang beberapa teori
+compiler, berbicara tentang bagaimana lexical scope
+
+24
+00: 01: 15.340 --> 00: 01: 20.190
+sebenarnya diproses dan apa artinya dengan
+bagaimana kami interpretasi kode kami.
+
+25
+00: 01: 20.190 --> 00: 01: 23.050
+Lalu kita akan lihat
+closure khusus.
+
+26
+00: 01: 23.050 --> 00: 01: 25.490
+Berapa banyak dari Anda yang pernah memiliki atau diberikan atau
+
+27
+00: 01: 25.490 --> 00: 01: 29.130
+mungkin keduanya pada wawancara kerja,
+apa itu closure?
+
+28
+00: 01: 29.130 --> 00: 01: 31.830
+Ada yang pernah punya pertanyaan itu atau
+mendengar pertanyaan itu sebelumnya?
+
+29
+00: 01: 31.830 --> 00: 01: 32.940
+Ini cukup umum.
+
+30
+00: 01: 32.940 --> 00: 01: 34.920
+Saya menerimanya setidaknya sekali, dan
+
+31
+00: 01: 34.920 --> 00: 01: 39.790
+Saya memberikannya mungkin seratus kali lipat
+dalam kapasitas saya bekerja sebagai developer.
+
+32
+00: 01: 39.790 --> 00: 01: 42.616
+Dan ketika saya bertanya
+orang-orang dalam wawancara kerja,
+
+33
+00: 01: 42.616 --> 00: 01: 47.707
+Saya dibawa masuk kedalam ruang wawancara karena saya semacam 
+Pakar JavaScript di pekerjaan saya, atau apa pun.
+
+34
+00: 01: 47.707 --> 00: 01: 49.710
+Jadi mereka selalu memanggil saya untuk masuk dan
+mencari kandidat,
+
+35
+00: 01: 49.710 --> 00: 01: 53.000
+apakah mereka benar-benar tahu apa yang mereka
+bicarakan dengan JavaScript?
+
+36
+00: 01: 53.000 --> 00: 01: 53.970
+Itu sebabnya saya dibawa masuk.
+
+37
+00: 01: 53.970 --> 00: 01: 55.665
+Jadi saya memiliki serangkaian pertanyaan yang ketat.
+
+38
+00: 01: 55.665 --> 00: 01: 59.513
+Dan saya bisa tahu dengan cepat apakah ada atau
+tidak ada seorangpun yang memperhatikan mereka
+
+39
+00: 01: 59.513 --> 00: 02: 03.248
+berpikir secara teratur tentang bahasa atau
+jika mereka hanya Anda tahu membaca beberapa
+
+40
+00: 02: 03.248 --> 00: 02: 05.441
+Posting Stack Overflow atau
+sesuatu seperti itu.
+
+41
+00: 02: 05.441 --> 00: 02: 09.570
+Jadi tidak perlu banyak
+untuk menyaringnya.
+
+42
+00: 02: 09.570 --> 00: 02: 11.455
+Tapi saya menanyakan pertanyaan itu,
+apa itu closure?
+
+43
+00: 02: 11.455 --> 00: 02: 13.509
+Dan jauh lebih sering itu tidak,
+
+44
+00: 02: 13.509 --> 00: 02: 18.684
+jawaban yang saya dapatkan dari pertanyaan itu
+akan menjadi sesuatu untuk efek,
+
+45
+00: 02: 18.684 --> 00: 02: 24.540
+well, itu seperti callback asynchronous,
+dan set timeout, dan click handlers.
+
+46
+00: 02: 25.740 --> 00: 02: 29.610
+Oke, bisakah Anda memberi saya
+lebih banyak informasi dari itu?
+
+47
+00: 02: 29.610 --> 00: 02: 32.440
+Dan orang-orang akan tersandung untuk mengartikulasikan.
+
+48
+00: 02: 32.440 --> 00: 02: 34.990
+Dan seperti yang saya katakan di
+awal dari kursus kita,
+
+49
+00: 02: 34.990 --> 00: 02: 39.070
+Closure adalah konsep yang paling penting
+pernah ditemukan dalam ilmu komputasi.
+
+50
+00: 02: 40.230 --> 00: 02: 45.380
+Mengapa ini sangat penting dan pertanyaan paling penting
+dan mendasar yang dapatkah Anda mengartikulasikan?
+
+51
+00: 02: 45.380 --> 00: 02: 48.000
+Jika aku bertanya padamu sekarang,
+jika saya menempatkan Anda di tempat dan
+
+52
+00: 02: 48.000 --> 00: 02: 51.820
+berkata, beri tahu saya apa closure itu,
+jika Anda belum pernah melihat kursus ini sebelumnya dan
+
+53
+00: 02: 51.820 --> 00: 02: 53.860
+Anda belum membaca buku saya,
+bagaimana Anda menjawab pertanyaan itu?
+
+54
+00: 02: 55.060 --> 00: 02: 57.212
+Saya pikir ini penting
+untuk memiliki jawaban yang sangat segar dan
+
+55
+00: 02: 57.212 --> 00: 03: 00.149
+spesifik untuk pertanyaan itu,
+untuk tahu persis mengenai hal itu.
+
+56
+00: 03: 00.149 --> 00:03: 04.040
+Dan ternyata, closure itu bukan beberapa
+hal baru yang harus saya ajarkan kepada Anda.
+
+57
+00: 03: 04.040 --> 00: 03: 07.560
+Saya hanya harus mengajari Anda untuk mengenali
+di mana closure sudah ada di semua
+
+58
+00: 03: 07.560 --> 00: 03: 08.360
+program Anda yang ada.
+
+59
+00: 03: 09.560 --> 00: 03: 10.970
+Jadi kita akan melihat closure.
+
+60
+00: 03: 10.970 --> 00: 03: 15.340
+Kami ingin benar-benar akrab dengan itu dan
+bagaimana kami menggunakannya.
+
+61
+00: 03: 15.340 --> 00: 03: 19.530
+Dan akhirnya, itu membuat kita menjadi sesuatu yang besar
+untuk di bawa pulang, inti yang besar di sini.
+
+62
+00: 03: 19.530 --> 00: 03: 21.880
+Itu membawa kita pada pemahaman
+module pattern.
+
+63
+00: 03: 21.880 --> 00: 03: 24.760
+Module Pattern
+mungkin yang paling penting
+
+64
+00: 03: 24.760 --> 00: 03: 27.470
+pattern di semua JavaScript
+dalam hal organisasi kode.

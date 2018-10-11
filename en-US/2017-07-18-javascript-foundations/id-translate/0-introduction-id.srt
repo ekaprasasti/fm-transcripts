@@ -1,0 +1,736 @@
+WEBVTT
+
+1
+00: 00: 00.700 --> 00: 00: 04.010
+& gt; & gt; Kyle Simpson: Ayo lompat
+menjadi fondasi JS yang dalam.
+
+2
+00: 00: 04.010 --> 00: 00: 09.374
+Kita akan bicarakan
+JavaScript dari inti luar.
+
+3
+00: 00: 09.374 --> 00: 00: 14.408
+Dan seperti yang disebutkan Markus,
+ini adalah revisi dua
+
+4
+00: 00: 14.408 --> 00: 00: 20.100
+salah satu yang paling awal dan saya
+paling populer dari bengkel saya.
+
+5
+00: 00: 20.100 --> 00: 00: 24.606
+[BATUK] Judul sebelumnya ini
+tentu saja adalah Advanced JavaScript,
+
+6
+00: 00: 24.606 --> 00: 00: 28.799
+apa yang perlu Anda ketahui bagian dan
+banyak orang telah melihatnya.
+
+7
+00: 00: 28.799 --> 00: 00: 33.380
+Saya yakin beberapa orang di sini dan
+online telah menonton kursus itu sebelumnya.
+
+8
+00: 00: 33.380 --> 00: 00: 37.230
+Dan saya ingin menjelaskan konteksnya
+yang satu ini yang diperluas,
+
+9
+00: 00: 37.230 --> 00: 00: 39.892
+cakupan konten baru, cakupan yang lebih dalam.
+
+10
+00: 00: 39.892 --> 00: 00: 43.120
+Tetapi saya ingin menjelaskan konteksnya
+itu dibandingkan dengan yang sebelumnya.
+
+11
+00: 00: 43.120 --> 00: 00: 44.511
+Jadi pertama, saya mulai dengan judul.
+
+12
+00: 00: 44.511 --> 00: 00: 48.671
+Saya menyebutnya Advanced JavaScript jalan kembali
+di hari itu dan saya terjebak dengan nama itu
+
+13
+00: 00: 48.671 --> 00: 00: 51.948
+waktu yang sangat lama sekalipun
+itu cenderung menciptakan kebingungan,
+
+14
+00: 00: 51.948 --> 00: 00: 54.990
+karena saya perhatikan
+sesuatu yang menarik.
+
+15
+00: 00: 54.990 --> 00: 00: 58.269
+Jika Anda memanggil sesuatu yang canggih dan
+lalu Anda jelaskan demikian
+
+16
+00: 00: 58.269 --> 00: 01: 01.910
+baik itu terlihat sederhana,
+terkadang orang menjadi frustrasi.
+
+17
+00: 01: 01.910 --> 00: 01: 04.451
+Dan saya sudah membuat orang mengeluh,
+tunggu sebentar,
+
+18
+00: 01: 04.451 --> 00: 01: 07.512
+Saya pikir saya mendapatkan seperti setiap
+jenis seperti kerangka panas dan
+
+19
+00: 01: 07.512 --> 00: 01: 10.950
+akronim yang lemah atau apa pun dan
+yang Anda lakukan hanyalah berbicara tentang penutupan.
+
+20
+00: 01: 12.400 --> 00: 01: 14.020
+Saya tidak mendapatkan uang saya.
+
+21
+00: 01: 14.020 --> 00: 01: 15.791
+Jadi, saya punya semacam keluhan.
+
+22
+00: 01: 15.791 --> 00: 01: 19.445
+Dan kemudian di ujung lain dari spektrum,
+ketika kamu muncul dan kamu mengajari sesuatu
+
+23
+00: 01: 19.445 --> 00: 01: 22.779
+itu benar-benar lebih dalam dan
+lebih teliti daripada orang yang terbiasa dan
+
+24
+00: 01: 22.779 --> 00: 01: 25.834
+mereka muncul berpikir,
+itu akan menjadi intro ringan.
+
+25
+00: 01: 25.834 --> 00: 01: 28.167
+Mereka cepat frustrasi,
+karena itu di atas kepala mereka atau
+
+26
+00: 01: 28.167 --> 00: 01: 30.190
+itu akan lebih cepat dari yang mereka harapkan.
+
+27
+00: 01: 30.190 --> 00: 01: 33.150
+Jadi ada yang menarik ini
+menyeimbangkan antara apa yang Anda sebut itu,
+
+28
+00: 01: 33.150 --> 00: 01: 35.180
+harapan yang mengatakan itu dan apa
+
+29
+00: 01: 36.200 --> 00: 01: 41,440
+itu akan berarti persepsi orang
+dari nilai yang mereka dapatkan dari itu.
+
+30
+00: 01: 41.440 --> 00: 01: 43.080
+Jadi setelah banyak refleksi,
+
+31
+00: 01: 43.080 --> 00: 01: 47.310
+Saya memutuskan bahwa alasan saya menyebutnya
+lanjut saya ingin orang-orang tahu ini
+
+32
+00: 01: 47.310 --> 00: 01: 53.060
+jauh lebih ketat dari yang Anda gunakan
+untuk pergi dengan topik khusus ini.
+
+33
+00: 01: 53.060 --> 00: 01: 54.382
+Tapi saya selalu harus memberikan peringatan itu.
+
+34
+00: 01: 54.382 --> 00: 01: 56.904
+Ini bukan yang paling penting
+orang-orang memanggil maju.
+
+35
+00: 01: 56.904 --> 00: 02: 00.111
+Karena kebanyakan orang berkata, baiklah,
+lanjut harusnya semua
+
+36
+00: 02: 00.111 --> 00: 02: 03.008
+alat-alat seperti tegukan dan
+paket web dunia dan
+
+37
+00: 02: 03.008 --> 00: 02: 07.500
+kami tidak mencakup hal-hal itu di dalamnya
+baik kursus sebelumnya atau yang ini.
+
+38
+00: 02: 07.500 --> 00: 02: 10.076
+Jadi, saya mengubah namanya menjadi
+Yayasan JavaScript Mendalam.
+
+39
+00: 02: 10.076 --> 00: 02: 13.982
+Karena saya ingin menunjukkan itu,
+itu adalah fokus khusus saya.
+
+40
+00: 02: 13.982 --> 00: 02: 18.921
+Itulah yang saya lakukan ketika saya mengajar dan itu
+apa yang harus Anda harapkan dari setiap kursus
+
+41
+00: 02: 18.921 --> 00: 02: 23.712
+atau buku apa pun yang Anda baca dari saya adalah itu
+Saya berharap orang-orang akan menyelamatkan saya,
+
+42
+00: 02: 23.712 --> 00: 02: 27.547
+bahwa materinya menjadi tidak biasa
+lebih dalam detail dan
+
+43
+00: 02: 27.547 --> 00: 02: 31.780
+lebih dalam bagaimana dan mengapa
+di balik hal selain apa.
+
+44
+00: 02: 32.800 --> 00: 02: 34.870
+Itulah yang seharusnya diharapkan.
+
+45
+00: 02: 34.870 --> 00: 02: 37.470
+Jadi, saya menetapkan harapan itu
+dengan judul kursus.
+
+46
+00: 02: 37.470 --> 00: 02: 38.909
+Saya hanya ingin membiarkan semua orang tahu itu.
+
+47
+00: 02: 38.909 --> 00: 02: 43.669
+Kami tidak akan meliput secara luas
+berbagai topik yang akan ditinggalkan
+
+48
+00: 02: 43.669 --> 00: 02: 45.204
+kepala kamu berputar.
+
+49
+00: 02: 45.204 --> 00: 02: 48.422
+Apa yang akan kita lakukan adalah menutupi sebenarnya
+satu set topik yang agak sempit, tapi
+
+50
+00: 02: 48.422 --> 00: 02: 51.905
+kita akan pergi lebih jauh dengan itu
+topik dari kebanyakan orang terbiasa pergi
+
+51
+00: 02: 51.905 --> 00: 02: 52.460
+dengan mereka.
+
+52
+00: 02: 53.870 --> 00: 02: 54.570
+Oleh karena itu, judulnya.
+
+53
+00: 02: 55.840 --> 00: 02: 59.275
+Jika Anda telah membaca seri buku saya,
+Anda Tidak Tahu buku JS,
+
+54
+00: 02: 59.275 --> 00: 03: 02.394
+Anda akan tahu itu
+buku juga sangat teliti.
+
+55
+00: 03: 02.394 --> 00: 03: 05.430
+Jadi, harap bahwa kursus ini
+akan agak seperti itu.
+
+56
+00: 03: 05.430 --> 00: 03: 07.838
+Meskipun jika saya akan mengajar
+isi penuh buku-buku ini,
+
+57
+00: 03: 07.838 --> 00: 03: 09.242
+kita akan berada di sini selama berminggu-minggu pada suatu waktu.
+
+58
+00: 03: 09.242 --> 00: 03: 13.260
+Jadi, jika Anda mencari kemana saya akan pergi selanjutnya?
+
+59
+00: 03: 13.260 --> 00: 03: 16.066
+Dia mengatakan sesuatu dan
+Saya ingin memahami itu lebih dalam.
+
+60
+00: 03: 16.066 --> 00: 03: 17.370
+Saya ingin masuk lebih dalam dengan itu.
+
+61
+00: 03: 17.370 --> 00: 03: 20.874
+Buku-buku adalah tempat terbaik untuk pergi dan kamu
+dapat membaca seluruh seri buku secara gratis.
+
+62
+00: 03: 20.874 --> 00: 03: 24.970
+Semua 6 buku,
+1.100 halaman bernilai pada repo GitHub.
+
+63
+00: 03: 24.970 --> 00: 03: 27.677
+Jadi saya sangat menyarankan
+yang Anda lacak bersama atau untuk
+
+64
+00: 03: 27.677 --> 00: 03: 31.350
+Bagi Anda yang menonton ini
+setelah pengalaman langsung, pergi dan
+
+65
+00: 03: 31.350 --> 00: 03: 34.401
+istirahat dan
+lacak bersama dengan buku dan baca itu.
+
+66
+00: 03: 34.401 --> 00: 03: 39.042
+Karena itulah bagaimana Anda akan melangkah lebih dalam
+dari cakupan yang kita miliki di sini
+
+67
+00: 03: 39.042 --> 00: 03: 40.850
+kelas ini dan dalam hal-hal ini.
+
+68
+00: 03: 40.850 --> 00: 03: 45.392
+Jadi jika Anda sudah menonton sebelumnya
+Tentu saja, taktiknya sama.
+
+69
+00: 03: 45.392 --> 00: 03: 48.820
+Kami akan terus masuk jauh
+dengan mekanisme inti ini.
+
+70
+00: 03: 48.820 --> 00: 03: 52.393
+Dalam beberapa hal,
+kami bahkan lebih sempit dari sebelumnya.
+
+71
+00: 03: 52.393 --> 00: 03: 55.556
+Karena sebelumnya,
+kami membahas topik dan asynchronous
+
+72
+00: 03: 55.556 --> 00: 04: 00.071
+itu sekarang menjadi penuh sendiri
+dua hari saja dibandingkan hanya satu jam
+
+73
+00: 04: 00.071 --> 00: 04: 01.760
+ditempelkan ke akhir hari.
+
+74
+00: 04: 02.770 --> 00: 04: 04.757
+Jadi, kami mempersempit
+fokus dalam beberapa hal.
+
+75
+00: 04: 04.757 --> 00: 04: 05.679
+Tetapi dalam hal lain,
+
+76
+00: 04: 05.679 --> 00: 04: 08.690
+memperluas fokus pada hal-hal
+bahwa kita benar-benar harus tahu.
+
+77
+00: 04: 08.690 --> 00: 04: 13.444
+Dan saya pikir ketika melakukan itu, itu akan terjadi
+menjadi peluang bagus untuk benar-benar pergi
+
+78
+00: 04: 13.444 --> 00: 04: 17.545
+kembali dan datang dengan set segar
+latihan untuk berlatih tentang itu.
+
+79
+00: 04: 17.545 --> 00: 04: 21.500
+Dan dalam kursus sebelumnya, ada
+hanya tiga atau empat latihan untuk dilampaui.
+
+80
+00: 04: 21.500 --> 00: 04: 24.707
+Ada delapan untuk kursus ini, jadi
+ada dua kali lipat jumlah latihan.
+
+81
+00: 04: 24.707 --> 00: 04: 28.604
+Ini sebenarnya satu aplikasi
+bahwa kita kembali dan
+
+82
+00: 04: 28.604 --> 00: 04: 31.680
+bekerja di masing-masing dari delapan latihan.
+
+83
+00: 04: 31.680 --> 00: 04: 35.105
+Jadi kita semakin mundur dan
+periksa kembali, dan kerjakan, dan
+
+84
+00: 04: 35.105 --> 00: 04: 38.054
+tingkatkan sepanjang kursus
+dari semua latihan.
+
+85
+00: 04: 38.054 --> 00: 04: 41.109
+Jadi, kita akan melakukan itu
+keseluruhan kursus ini.
+
+86
+00: 04: 42.230 --> 00: 04: 46.790
+[BATUK] Jadi, apa yang Anda harapkan
+dari ini adalah perjalanan yang ketat
+
+87
+00: 04: 46.790 --> 00: 04: 52.060
+melalui tiga yayasan inti
+tentang apa itu JavaScript.
+
+88
+00: 04: 52.060 --> 00: 04: 56.830
+Dan yayasan-yayasan itu termasuk
+jenis dan sistem pemaksaan,
+
+89
+00: 04: 56.830 --> 00: 05: 02.190
+dan itu mungkin yang paling difitnah
+semua fitur dalam JavaScript.
+
+90
+00: 05: 02.190 --> 00: 05: 06.881
+Kebanyakan orang mengambil prospektif itu
+paksaan adalah kejahatan yang sangat buruk, jika
+
+91
+00: 05: 06.881 --> 00: 05: 11.781
+Anda akan ke desain bahasa atau
+itu dirancang dengan buruk, bahkan pencipta
+
+92
+00: 05: 11.781 --> 00: 05: 16.489
+bahasa itu sendiri mengklaim bahwa ia membuat
+banyak kesalahan dalam desain itu.
+
+93
+00: 05: 16.489 --> 00: 05: 19.527
+Dan seringkali,
+ketika saya berdiri dan berkata, sebenarnya,
+
+94
+00: 05: 19.527 --> 00: 05: 22.890
+Saya pikir ini cantik
+sebagian besar bahasa.
+
+95
+00: 05: 22.890 --> 00: 05: 27.770
+Ini sangat kontras dengan banyak hal
+kebijaksanaan yang mapan tentang topik ini,
+
+96
+00: 05: 27.770 --> 00: 05: 30.093
+tapi saya pikir jenis pemahaman dan
+
+97
+00: 05: 30.093 --> 00: 05: 35.205
+memahami cara jenisnya
+dikonversi yang merupakan paksaan dan menggunakan itu
+
+98
+00: 05: 35.205 --> 00: 05: 40.271
+untuk keuntungan kita daripada takut
+dari mereka dan tinggal jauh dari mereka.
+
+99
+00: 05: 40.271 --> 00: 05: 45.020
+Memahami mekanisme itu, itu
+pilar inti pertama bahasa.
+
+100
+00: 05: 45.020 --> 00: 05: 47.183
+Dan saya rasa Anda tidak bisa pergi
+di tempat lain dengan bahasa itu,
+
+101
+00: 05: 47.183 --> 00: 05: 49.069
+jika Anda tidak benar-benar memilikinya
+landasan yang kuat untuk itu.
+
+102
+00: 05: 49.069 --> 00: 05: 51.667
+Jadi kita akan mulai dengan tipe dan
+sistem pemaksaan,
+
+103
+00: 05: 51.667 --> 00: 05: 54.810
+benar-benar menggali apa itu tentang dan
+masuk ke rincian itu.
+
+104
+00: 05: 54.810 --> 00: 05: 57.895
+Sekarang kebenarannya adalah kita harus pergi
+melalui serangkaian detail terperinci,
+
+105
+00: 05: 57.895 --> 00: 05: 59.888
+yang bisa sedikit berbelit-belit.
+
+106
+00: 05: 59.888 --> 00: 06: 02.320
+Kita harus melaluinya
+set rincian terperinci untuk
+
+107
+00: 06: 02.320 --> 00: 06: 05.738
+kamu untuk mendapatkan perspektif itu
+Anda perlu memiliki topik itu,
+
+108
+00: 06: 05.738 --> 00: 06: 09.876
+tetapi itu tidak akan terjadi kasus yang ada di Anda
+hari ke hari berpikir atau di hari ke hari
+
+109
+00: 06: 09.876 --> 00: 06: 13.740
+pengembangan yang harus Anda pikirkan
+tentang setiap detail itu.
+
+110
+00: 06: 13.740 --> 00: 06: 17.381
+Kami akan mencoba untuk merebus dengan semua yang kami miliki
+berbicara tentang ke beberapa pola dan
+
+111
+00: 06: 17.381 --> 00: 06: 21.631
+beberapa mengambil kesimpulan bahwa Anda dapat membuat beberapa
+insting dalam kode pengembangan Anda.
+
+112
+00: 06: 21.631 --> 00: 06: 23.690
+Jadi, itulah pondasi inti pertama.
+
+113
+00: 06: 23.690 --> 00: 06: 27.812
+Yang kedua, ruang lingkup dan
+sistem penutupan di JavaScript.
+
+114
+00: 06: 27.812 --> 00: 06: 31.896
+Dari ketiganya, jika saya harus memilih hanya satu
+untuk mengajar, itu akan menjadi ruang lingkup dan
+
+115
+00: 06: 31.896 --> 00: 06: 33.270
+sistem penutupan.
+
+116
+00: 06: 33.270 --> 00: 06: 35.690
+Karena ternyata penutupan itu sebenarnya,
+
+117
+00: 06: 35.690 --> 00: 06: 41.610
+mungkin konsep yang paling penting
+ditemukan di semua ilmu komputasi.
+
+118
+00: 06: 41.610 --> 00: 06: 44.380
+Jika bukan yang paling banyak,
+ada di dua atau tiga teratas.
+
+119
+00: 06: 44.380 --> 00: 06: 48.503
+Sekarang, beberapa dari Anda tahu itu
+Doug Crockford dan aku tidak selalu setuju.
+
+120
+00: 06: 48.503 --> 00: 06: 49.520
+Kami tidak selalu bertatap mata.
+
+121
+00: 06: 50.590 --> 00: 06: 53.266
+Dia pria yang pintar,
+memiliki banyak hal bagus untuk dikatakan.
+
+122
+00: 06: 53.266 --> 00: 06: 55.570
+Dan sekali dan sebentar,
+dia mengatakan sesuatu yang sangat mendalam.
+
+123
+00: 06: 55.570 --> 00: 06: 57.716
+Dan dia menunjukkan topik ini,
+
+124
+00: 06: 57.716 --> 00: 07: 01.944
+dia berbicara tentang penutupan di
+sebuah konferensi bicara beberapa tahun yang lalu.
+
+125
+00: 07: 01.944 --> 00: 07: 06.200
+Dan dia menunjukkan bahwa jika Anda melihat ke belakang
+pada sejarah ilmu komputasi,
+
+126
+00: 07: 06.200 --> 00: 07: 08.859
+ternyata yang paling banyak
+konsep-konsep penting itu
+
+127
+00: 07: 08.859 --> 00: 07: 13.990
+diciptakan mengambil seluruh generasi
+programmer sebelum mereka memegang.
+
+128
+00: 07: 13.990 --> 00: 07: 16.860
+Dan lidahnya dalam teori pipi untuk
+itu baik,
+
+129
+00: 07: 16.860 --> 00: 07: 21.910
+setiap kali sesuatu yang baru ditemukan, semua
+kerumunan yang ada tahan terhadap perubahan.
+
+130
+00: 07: 21.910 --> 00: 07: 23.330
+Karena mengapa saya harus mengubahnya?
+
+131
+00: 07: 23.330 --> 00: 07: 26.102
+Jadi, kita harus menunggu cukup lama
+mereka semua mati atau
+
+132
+00: 07: 26.102 --> 00: 07: 29.723
+pensiun sebelum orang baru bisa
+mengambil alih dengan pola-pola baru ini.
+
+133
+00: 07: 29.723 --> 00: 07: 33.060
+Dan dia melanjutkan dengan berkata,
+kita tahu bahwa penutupan itu benar-benar hebat.
+
+134
+00: 07: 33.060 --> 00: 07: 35.815
+Karena butuh waktu dua penuh
+generasi untuk memegang.
+
+135
+00: 07: 35.815 --> 00: 07: 39.744
+Jadi, saya pikir penutupan benar-benar
+sebenarnya yang paling penting dari semuanya
+
+136
+00: 07: 39.744 --> 00: 07: 41.840
+konsep dasar.
+
+137
+00: 07: 41.840 --> 00: 07: 45.648
+Dan ketika Anda mulai memahami apa itu
+dan Anda mulai menyadari itu
+
+138
+00: 07: 45.648 --> 00: 07: 48.289
+tempat kode Anda,
+Anda akan mulai setuju dengan itu.
+
+139
+00: 07: 48.289 --> 00: 07: 50.040
+Jadi, kita akan menghabiskannya
+waktu berbicara tentang itu.
+
+140
+00: 07: 50.040 --> 00: 07: 54.344
+Tetapi sekali lagi, itu memunculkan kita satu set
+pola, yaitu pola modul untuk
+
+141
+00: 07: 54.344 --> 00: 07: 55.509
+organisasi kode.
+
+142
+00: 07: 55.509 --> 00: 07: 59.957
+Ini memunculkan kita satu set pola itu
+semoga kita bisa menggunakan sebagai naluri
+
+143
+00: 07: 59.957 --> 00: 08: 04.767
+menulis kode yang lebih baik dan yang ketiga dan
+pondasi inti akhir yang akan kita bahas
+
+144
+00: 08: 04.767 --> 00: 08: 09.220
+kursus ini adalah ini,
+dan prototipe objek sistem.
+
+145
+00: 08: 09.220 --> 00: 08: 10.577
+Dan jika Anda memperhatikan,
+
+146
+00: 08: 10.577 --> 00: 08: 12.832
+Anda perhatikan saya baru saja mendaftar
+tiga buku dari seri saya.
+
+147
+00: 08: 12.832 --> 00: 08: 14.832
+Karena itu adalah di mana kita mulai.
+
+148
+00: 08: 14.832 --> 00: 08: 17.547
+Jika Anda ingin memahami JavaScript,
+kamu harus mengerti itu.
+
+149
+00: 08: 17.547 --> 00: 08: 20.568
+Jika Anda memberi tahu saya bahwa Anda dapat mengonfigurasi
+webpack dengan mata tertutup,
+
+150
+00: 08: 20.568 --> 00: 08: 21.370
+Saya terkesan.
+
+151
+00: 08: 21.370 --> 00: 08: 22.851
+Karena webpack sangat rumit.
+
+152
+00: 08: 22.851 --> 00: 08: 26.301
+Tetapi jika Anda memberi tahu saya, Anda dapat mengartikulasikan
+tepatnya perbedaan antara dan
+
+153
+00: 08: 26.301 --> 00: 08: 29.695
+objek, rantai prototipe dan
+penutupan dalam lingkup lingkup leksikal,
+
+154
+00: 08: 29.695 --> 00: 08: 31.550
+itulah yang membuat saya terkesan.

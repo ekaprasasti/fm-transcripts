@@ -1,0 +1,888 @@
+WEBVTT
+
+1
+00: 00: 00.300 --> 00: 00: 02.802
+& gt; & gt; Kyle Simpson: Terima kasih banyak
+global scope, kita punya kelereng merah di
+
+2
+00: 00: 02.802 --> 00: 00: 06.400
+ember dan kita punya foo yang
+disortir ke dalam global scope.
+
+3
+00: 00: 06.400 --> 00: 00: 11.100
+Kita teruskan mengcompile kode,
+kita sampai di baris 3 dan berkata,
+
+4
+00: 00: 11.100 --> 00: 00: 14.949
+Hai global scope, saya punya identifier
+yang disebut bar, pernah mendengar tentang dia?
+
+5
+00: 00: 15.950 --> 00: 00: 16.825
+Apa jawabannya?
+
+6
+00: 00: 16.825 --> 00: 00: 17.526
+& gt; & gt; Speaker 2: Tidak.
+
+7
+00: 00: 17.526 --> 00: 00: 19.200
+& gt; & gt; Kyle Simpson: Tidak,
+tidak pernah mendengar tentang mereka.
+
+8
+00: 00: 19.200 --> 00: 00: 21.190
+Tetapi sekarang setelah Anda menyebutkannya,
+Saya punya bar.
+
+9
+00: 00: 21.190 --> 00: 00: 23.920
+Saya menyortir kelereng merah itu
+ke dalam ember merah.
+
+10
+00: 00: 23.920 --> 00: 00: 26.250
+Cakupan yang sama,
+kami masih dalam global scope.
+
+11
+00: 00: 26.250 --> 00: 00: 31.506
+Sekarang kami memiliki identifier yang disebut foo,
+dan kami memiliki identifier yang disebut bar.
+
+12
+00: 00: 31.506 --> 00: 00: 36.459
+Ngomong-ngomong, identifier ini terjadi
+sebagai referensi deklarasi fungsi formal.
+
+13
+00: 00: 36.459 --> 00: 00: 40.114
+Karena fungsi sangat penting
+karena mereka berada di scopenya sendiri,
+
+14
+00: 00: 40.114 --> 00: 00: 44.616
+mari kita lanjutkan ke langkah rekursif di dalam
+fungsi dan menciptakan ember baru,
+
+15
+00: 00: 44.616 --> 00: 00: 48.940
+ember biru, dan mari kita bicarakan
+kelereng yang masuk ke ember biru.
+
+16
+00: 00: 51.170 --> 00: 00: 54.704
+Jadi sekarang kami berada di scope bar, kami
+berbicara dengan scope manajer yang berbeda.
+
+17
+00: 00: 54.704 --> 00: 00: 57.280
+Sekarang kita berbicara dengan scope manajer untuk
+ember biru.
+
+18
+00: 00: 58.780 --> 00: 01: 03.300
+Dan kami terus mencari
+deklarasi variabel formal lainnya.
+
+19
+00: 01: 03.300 --> 00: 01: 04.440
+Hei, scope bar.
+
+20
+00: 01: 04.440 --> 00: 01: 05.190
+Saya di baris 4.
+
+21
+00: 01: 05.190 --> 00: 01: 08.220
+Hey ruang lingkup bar, saya punya formal
+deklarasi untuk variabel yang disebut foo.
+
+22
+00: 01: 08.220 --> 00: 01: 08.760
+Pernah dengar tentang dia?
+
+23
+00: 01: 08.760 --> 00: 01: 10.200
+Jawabannya adalah.
+
+24
+00: 01: 10.200 --> 00: 01: 10.750
+& gt; & gt; Speaker 2: Tidak.
+
+25
+00: 01: 10.750 --> 00: 01: 11.340
+& gt; & gt; Kyle Simpson: Tidak, tapi
+
+26
+00: 01: 11.340 --> 00: 01: 15.020
+sekarang Anda menyebutkannya, mari kita letakkan
+kelereng biru itu ke dalam ember biru.
+
+27
+00: 01: 16.740 --> 00: 01: 18.790
+Jadi sekarang ada foo di ember biru.
+
+28
+00: 01: 18.790 --> 00: 01: 23.670
+Itu penting untuk dicatat bahwa foo itu
+berbeda dari foo yang kami temukan di baris 1,
+
+29
+00: 01: 23.670 --> 00: 01: 25.640
+karena ini adalah scope yang berbeda.
+
+30
+00: 01: 25.640 --> 00: 01: 29.010
+Dan ngomong-ngomong aku mungkin tidak memberitahumu
+apa-apa, itu mengejutkan atau
+
+31
+00: 01: 29.010 --> 00: 01: 29.900
+terobosan.
+
+32
+00: 01: 29.900 --> 00: 01: 31.410
+Ini semua hal yang intuitif.
+
+33
+00: 01: 31.410 --> 00: 01: 34.450
+Hanya saja lebih formal dan
+teliti dari yang biasa kamu pikirkan.
+
+34
+00: 01: 34.450 --> 00: 01: 38.020
+Saya berjanji ada imbalan
+untuk formalitas dan ketelitian itu.
+
+35
+00: 01: 38.020 --> 00: 01: 41.730
+Ini membantu kita menghindari kesalahan
+berpikir yang mengarah pada bug-bug di kemudian hari.
+
+36
+00: 01: 42.900 --> 00: 01: 44.139
+Hanya lebih formal dan teliti.
+
+37
+00: 01: 45.290 --> 00: 01: 46.590
+Oke, jadi sekarang kita punya dua foo yang berbeda.
+
+38
+00: 01: 46.590 --> 00: 01: 51.160
+Dan omong-omong, ada istilah untuk
+yang memiliki dua variabel yang berbeda
+
+39
+00: 01: 51.160 --> 00: 01: 54.910
+dengan nama yang sama pada level scope yang berbeda,
+seperti yang kita lihat di sana.
+
+40
+00: 01: 54.910 --> 00: 01: 58.199
+Ada istilah untuk itu,
+dan itu disebut shadowing.
+
+41
+00: 01: 58.199 --> 00: 02: 03.863
+Jika, pada baris 4 setengah, atau
+bahkan katakanlah, pada baris 3 setengah.
+
+42
+00: 02: 03.863 --> 00: 02: 08.758
+Jika di baris tiga setengah, di antaranya
+baris 3 dan 4, saya mengatakan console.log foo,
+
+43
+00: 02: 08.758 --> 00: 02: 10.819
+menurut Anda apa yang akan dicetak?
+
+44
+00: 02: 16.649 --> 00: 02: 19.968
+& gt; & gt; Kyle Simpson: Pada baris 3
+setengah, jika saya berkata console.log foo,
+
+45
+00: 02: 19.968 --> 00: 02: 22.820
+ia sebenarnya akan mencetak undefined.
+
+46
+00: 02: 27.895 --> 00: 02: 30.315
+& gt; & gt; Kyle Simpson: Karena
+ini adalah sistem two pass,
+
+47
+00: 02: 30.315 --> 00: 02: 36.890
+kita menangani deklarasi variabel
+jauh sebelum kita melakukan eksekusi.
+
+48
+00: 02: 36.890 --> 00: 02: 40.430
+Jadi, pada saat itu kita mendaftarkan
+sebuah foo ke dalam scope bar,
+
+49
+00: 02: 40.430 --> 00: 02: 41,480
+itu adalah pada waktu kompilasi.
+
+50
+00: 02: 41.480 --> 00: 02: 43.680
+Kami belum memperhatikan
+ke console.log, belum.
+
+51
+00: 02: 43.680 --> 00: 02: 45.140
+Itu eksekusi.
+
+52
+00: 02: 45.140 --> 00: 02: 48.340
+Kemudian ketika kita pergi untuk mengeksekusi,
+kita akan datang ke baris 3 setengah, dan
+
+53
+00: 02: 48.340 --> 00: 02: 50.600
+kita akan seperti,
+Saya mencari kelereng biru.
+
+54
+00: 02: 50.600 --> 00: 02: 51.800
+Tebak yang mana yang akan kita temukan.
+
+55
+00: 02: 53.300 --> 00: 02: 55.040
+Yang ada di scope terdekat kita.
+
+56
+00: 02: 56.230 --> 00: 02: 58.974
+Anda lihat masalahnya, ketika Anda semua
+hanya mengatakan ia akan mencetak bar,
+
+57
+00: 02: 58.974 --> 00: 03: 01.147
+masalahnya adalah karena kamu
+berfikir top down single pass.
+
+58
+00: 03: 02.506 --> 00: 03: 04.850
+& gt; & gt; Kyle Simpson: Ini terjadi
+di semua waktu, orang mengalami masalah ini.
+
+59
+00: 03: 04.850 --> 00: 03: 08.628
+Ketika Anda mencoba menyederhanakan JavaScript
+untuk sesuatu yang tidak dilakukannya,
+
+60
+00: 03: 08.628 --> 00: 03: 11.659
+kejutan besar Anda berakhir
+pada salah menafsirkan kode Anda sendiri.
+
+61
+00: 03: 13.260 --> 00: 03: 15.452
+& gt; & gt; Kyle Simpson: Jadi saya hanya mencoba
+membantu Anda berpikir sedikit lebih pada
+
+62
+00: 03: 15.452 --> 00: 03: 16.160
+cara kerja engine nya.
+
+63
+00: 03: 17.210 --> 00: 03: 22.170
+& gt; & gt; Speaker 2: Sekarang jika console.log itu
+berada di baris 4 hingga 5, maka akan ada bar.
+
+64
+00: 03: 22.170 --> 00: 03: 23.515
+& gt; & gt; Kyle Simpson: Maka itu akan menjadi bar.
+
+65
+00: 03: 23.515 --> 00: 03: 27.664
+[CROSSTALK] Apa itu?
+
+66
+00: 03: 27.664 --> 00: 03: 30.316
+& gt; & gt; Pembicara 2: Ini akan tidak terdefinisi
+& gt; & gt; Kyle Simpson: [TIDAK JELAS] baris 3
+
+67
+00: 03: 30.316 --> 00: 03: 30.908
+setengah.
+
+68
+00: 03: 30.908 --> 00: 03: 35.490
+& gt; & gt; Speaker 2: [CROSSTALK]
+& gt; & gt; Kyle Simpson: Apa yang telah dideklarasikan pada
+
+69
+00: 03: 35.490 --> 00: 03: 36.441
+scope tersebut.
+
+70
+00: 03: 36.441 --> 00: 03: 37.509
+Ia belum diberikan nilai.
+
+71
+00: 03: 41.151 --> 00: 03: 45.419
+& gt; & gt; Kyle Simpson: Jika belum di deklarasikan,
+Jika baris 4 tidak ada,
+
+72
+00: 03: 45.419 --> 00: 03: 49.499
+maka kita jelas akan mencetak bar.
+
+73
+00: 03: 49.499 --> 00: 03: 51.940
+Kami akan kembali pada hal itu lebih dari
+sekedar hal eksekusi itu sebentar lagi.
+
+74
+00: 03: 51.940 --> 00: 03: 54.729
+Saya hanya ingin menunjukkan,
+mengerti bagaimana hal ini
+
+75
+00: 03: 54.729 --> 00: 03: 59.020
+di proses pada saat kompilasi sangat
+Penting untuk menghindari kesalahpahaman.
+
+76
+00: 04: 00.600 --> 00: 04: 02.530
+Jadi sekarang kita punya kelereng warna biru
+dalam ember biru itu,
+
+77
+00: 04: 02.530 --> 00: 04: 05.920
+kami telah men-shadow yang satu itu
+di luar scope.
+
+78
+00: 04: 05.920 --> 00: 04: 11.270
+Dan itu berarti di mana pun di dalam bar,
+tidak ada di baris 3 setengah, bukan pada baris 4
+
+79
+00: 04: 11.270 --> 00: 04: 16.970
+setengah, tidak ada di dalam bar yang bisa kita
+lakukan referensi leksikal foo dari baris 1,
+
+80
+00: 04: 16.970 --> 00: 04: 17.630
+itu tidak mungkin.
+
+81
+00: 04: 19.520 --> 00: 04: 22.240
+Begitu kita shadow pada saat kompilasi,
+
+82
+00: 04: 22.240 --> 00: 04: 27.440
+tidak mungkin pada saat run time untuk mengakses
+suatu leksikal di scope luar,
+
+83
+00: 04: 27.440 --> 00: 04: 30.460
+tidak ada cara untuk mengatakan secara leksikal,
+Saya hanya ingin Anda pergi satu tingkat keterampilan.
+
+84
+00: 04: 32.340 --> 00: 04: 36.730
+Ada trik untuk mengakses global
+variabel yang tidak leksikal sama sekali,
+
+85
+00: 04: 36.730 --> 00: 04: 40.900
+itu adalah variabel global pada saat yang sama,
+ada properti dari objek global
+
+86
+00: 04: 40.900 --> 00: 04: 44.840
+AKA window,
+yang sesuai dengan variabel global.
+
+87
+00: 04: 44.840 --> 00: 04: 48.913
+Jadi secara teknis di baris 3
+setengah, Anda bisa mengatakan, window.foo dan
+
+88
+00: 04: 48.913 --> 00: 04: 51.710
+Anda akan mendapatkan nilai quote bar.
+
+89
+00: 04: 51.710 --> 00: 04: 56.160
+Tapi itu bukan hal leksikal, itu
+hanya kecurangan karena variabel global
+
+90
+00: 04: 56.160 --> 00: 04: 57.789
+juga merupakan properti objek global.
+
+91
+00: 04: 59.070 --> 00: 05: 02.540
+Jika kami pada kedalaman 18 tingkat di dalam nesting,
+dan
+
+92
+00: 05: 02.540 --> 00: 05: 06.580
+Anda ingin mengakses sesuatu dari level
+ke-16 dua tingkat ke atas, itu tidak mungkin.
+
+93
+00: 05: 08.450 --> 00: 05: 09.190
+Jika Anda shadowing.
+
+94
+00: 05: 11.190 --> 00: 05: 13.170
+Jadi bukan berarti shadowing itu buruk.
+
+95
+00: 05: 13.170 --> 00: 05: 15.304
+Terkadang tepat seperti yang Anda inginkan.
+
+96
+00: 05: 15.304 --> 00: 05: 19.190
+Terkadang ada nama variabel yang deskriptif
+untuk tujuan yang berbeda, dan
+
+97
+00: 05: 19.190 --> 00: 05: 21.650
+scope berbeda, dan
+itu baik-baik saja bagi Anda untuk shadow.
+
+98
+00: 05: 22.740 --> 00: 05: 26.472
+Ketahuilah bahwa jika Anda melakukan shadow, itu berarti
+bahwa Anda tidak dapat mengakses baris di atas nya.
+
+99
+00: 05: 30.680 --> 00: 05: 34.250
+& gt; & gt; Kyle Simpson: Jadi kami sudah mengurutkannya
+kelereng biru ke dalam ember biru untuk bar.
+
+100
+00: 05: 34.250 --> 00: 05: 37.340
+Perhatikan bahwa kita sudah selesai
+menyusun fungsi bar.
+
+101
+00: 05: 37.340 --> 00: 05: 42.190
+Kami selesai dan kami kembali lagi
+keluar ke global scope diluar.
+
+102
+00: 05: 42.190 --> 00: 05: 45.050
+Dan kami terus mencari
+deklarasi formal.
+
+103
+00: 05: 45.050 --> 00: 05: 49.790
+Di mana deklarasi formal berikutnya
+bisa kita temukan?
+
+104
+00: 05: 49.790 --> 00: 05: 51.170
+& gt; & gt; Pembicara 2: Kami menemukannya di baris 7.
+
+105
+00: 05: 51.170 --> 00: 05: 54.360
+Kita menemukan deklarasi formal untuk
+sebuah identifier yang disebut baz.
+
+106
+00: 05: 54.360 --> 00: 05: 57.370
+Jadi kita katakan, hey global scope, saya memiliki
+identifier yang disebut baz, pernah mendengar tentang dia?
+
+107
+00: 05: 57.370 --> 00: 05: 58.480
+Dan jawabannya adalah?
+
+108
+00: 05: 58.480 --> 00: 05: 59.130
+& gt; & gt; Kyle Simpson: Tidak.
+
+109
+00: 05: 59.130 --> 00: 05: 59.830
+& gt; & gt; Speaker 2: Tidak.
+
+110
+00: 05: 59.830 --> 00: 06: 04.590
+Karena dalam scope tersebut, kami belum melihat baz,
+jadi kami menambahkan baz ke dalam ember hijau.
+
+111
+00: 06: 04.590 --> 00: 06: 06.070
+Saya minta maaf, ke ember merah.
+
+112
+00: 06: 06.070 --> 00: 06: 07.010
+Kami masih dalam global scope.
+
+113
+00: 06: 07.010 --> 00: 06: 09.540
+Kami menempatkan baz,
+kami menaruh kelereng merah di sana.
+
+114
+00: 06: 09.540 --> 00: 06: 14.430
+Sekarang global scope memiliki tiga
+pengidentifikasi, foo, bar dan baz di dalamnya.
+
+115
+00: 06: 14.430 --> 00: 06: 18.440
+Dan kita perhatikan bahwa baz kebetulan mengarah ke
+sebuah fungsi, yang mendapatkan scopenya sendiri, jadi
+
+116
+00: 06: 18.440 --> 00: 06: 21.150
+mari melangkah ke fungsi itu dan
+proses scope itu.
+
+117
+00: 06: 23.120 --> 00: 06: 24.940
+Apakah saya sudah kehilangan seseorang?
+
+118
+00: 06: 24.940 --> 00: 06: 29.030
+Itu harus cukup intuitif, jadi
+sekarang kita berada dalam lingkup baz di mana kita berada
+
+119
+00: 06: 29.030 --> 00: 06: 33.940
+dan berbicara dengan ember hijau,
+yang akan menyimpan isi baz.
+
+120
+00: 06: 33.940 --> 00: 06: 35.797
+Dan kami pergi mencari deklarasi formal.
+
+121
+00: 06: 35.797 --> 00: 06: 39.166
+Di mana kita menemukan
+deklarasi formal berikutnya?
+
+122
+00: 06: 39.166 --> 00: 06: 40.149
+& gt; & gt; Kyle Simpson: Parameternya?
+
+123
+00: 06: 40.149 --> 00: 06: 41.592
+& gt; & gt; Speaker 2: Baris 7.
+
+124
+00: 06: 41.592 --> 00: 06: 43.635
+Ia tidak memiliki kata kunci var di sana.
+
+125
+00: 06: 43.635 --> 00: 06: 47.960
+Tetapi parameter berlaku,
+sebagai deklarasi variabel formal.
+
+126
+00: 06: 49.900 --> 00: 06: 52.230
+Mereka menciptakannya, untuk semua maksud dan tujuan,
+
+127
+00: 06: 52.230 --> 00: 06: 56.520
+variabel lokal, tidak secara teknis tetapi
+untuk tujuan kita cukup baik.
+
+128
+00: 06: 57.950 --> 00: 07: 01.670
+Jadi foo dibuat seolah-olah itu adalah variabel
+lokal dalam scope baz.
+
+129
+00: 07: 03.210 --> 00: 07: 06.820
+Ini seperti, hey scope baz, saya punya
+variabel yang disebut foo, pernah mendengar tentang dia?
+
+130
+00: 07: 06.820 --> 00: 07: 08.905
+Dan jawabannya adalah?
+
+131
+00: 07: 08.905 --> 00: 07: 10.218
+& gt; & gt; Kyle Simpson: Tidak.
+& gt; & gt; Speaker 2: Tidak.
+
+132
+00: 07: 10.218 --> 00: 07: 12.305
+Sekarang pertanyaan itu sangat penting,
+
+133
+00: 07: 12.305 --> 00: 07: 15.938
+karena ingat sebelumnya saya mengirim
+strict mode, jika kita memiliki parameter,
+
+134
+00: 07: 15.938 --> 00: 07: 19.650
+kita harus memeriksa untuk memastikan bahwa kita
+belum melihat parameter itu sebelumnya.
+
+135
+00: 07: 19.650 --> 00: 07: 22.554
+Karena jika kita punya, itu adalah kesalahan.
+
+136
+00: 07: 22.554 --> 00: 07: 25.775
+Jadi, jika kita dalam strict mode dan
+kami mengatakan hey scope baz,
+
+137
+00: 07: 25.775 --> 00: 07: 30.290
+Saya memiliki parameter yang disebut foo dan baz
+seperti ini, saya sudah punya satu yang disebut foo.
+
+138
+00: 07: 30.290 --> 00: 07: 31.110
+Lalu apa yang kita lakukan?
+
+139
+00: 07: 32.340 --> 00: 07: 33.410
+Kita harus throw sebuah error, bukan?
+
+140
+00: 07: 34.620 --> 00: 07: 37.430
+Jadi itulah mengapa Q &
+A yang terjadi sangat penting.
+
+141
+00: 07: 37.430 --> 00: 07: 38.780
+pembagian tanggung jawab.
+
+142
+00: 07: 41.210 --> 00: 07: 44.700
+Dalam hal ini, kami belum memiliki foo
+dalam scope baz, jadi kami membuat foo,
+
+143
+00: 07: 44.700 --> 00: 07: 46.640
+kami menempatkan kelereng ke dalam ember hijau.
+
+144
+00: 07: 48.140 --> 00: 07: 50.925
+Sekarang, kita menjalani sisanya
+isi dari fungsi baz.
+
+145
+00: 07: 50.925 --> 00: 07: 55.013
+[BATUK] Apakah kita menemukan
+dekorasi yang lebih formal?
+
+146
+00: 08: 00.510 --> 00: 08: 03.225
+& gt; & gt; Pembicara 2: Beberapa dari Anda mungkin
+bertanya-tanya, apa yang terjadi dengan baris 9?
+
+147
+00: 08: 04.550 --> 00: 08: 07.440
+Beberapa dari Anda mungkin bertanya-tanya,
+apakah baris 9 merupakan deklarasi?
+
+148
+00: 08: 08.840 --> 00: 08: 13.380
+Mari kita pikirkan dari sudut pandang
+dari apa yang kompiler JavaScript bisa
+
+149
+00: 08: 13.380 --> 00: 08: 14.560
+lakukan pada saat ini.
+
+150
+00: 08: 14.560 --> 00: 08: 16.240
+Apa yang diketahuinya, dan
+apa yang tidak diketahuinya?
+
+151
+00: 08: 17.520 --> 00: 08: 20.320
+Baris 9, ketika menemukan variabel yang disebut,
+
+152
+00: 08: 20.320 --> 00: 08: 24.960
+bam, disana tidak terlihat kata kunci var
+di sana, kita semua bisa setuju dengan itu, kan?
+
+153
+00: 08: 26.160 --> 00: 08: 28.190
+Jadi apa yang memungkinkan untuk bisa diketahui?
+
+154
+00: 08: 28.190 --> 00: 08: 31.890
+Mungkinkah berasumsi bahwa kita bermaksud
+untuk menaruh var di sana dan kita tidak melakukannya?
+
+155
+00: 08: 33.350 --> 00: 08: 35.230
+Mari kita pikirkan
+kemungkinan lain.
+
+156
+00: 08: 35.230 --> 00: 08: 39.980
+Sangat mungkin,
+bahwa kita mungkin menemukan var bam
+
+157
+00: 08: 39.980 --> 00: 08: 44.880
+baris 9 setengah, kita belum tahu itu
+karena kita masih di baris 9.
+
+158
+00: 08: 46.000 --> 00: 08: 53.378
+Mungkin juga kita mungkin menemukan var bam
+di jalur 11, kita belum sampai di sana.
+
+159
+00: 08: 53.378 --> 00: 08: 57.911
+Itu juga secara internal memungkinkan bagi kita
+untuk menemukan var bam secara keseluruhan
+
+160
+00: 08: 57.911 --> 00: 09: 02.167
+file yang berbeda, karena setiap file
+didapatkan untuk menambah global scope.
+
+161
+00: 09: 02.167 --> 00: 09: 06.325
+Mereka semua program yang terpisah
+yang berbagi global scope, jadi
+
+162
+00: 09: 06.325 --> 00: 09: 08.900
+me-load file berikutnya mungkin bisa membuat var bam.
+
+163
+00: 09: 08.900 --> 00: 09: 12.208
+Jadi pada saat ini kapan
+kami memproses baris 9,
+
+164
+00: 09: 12.208 --> 00: 09: 17.430
+bisakah kita mengatakan semua tentang bam
+karena selain itu bukan deklarasi formal?
+
+165
+00: 09: 18.930 --> 00: 09: 23.150
+Bisakah kita menyiratkan atau
+berasumsi di mana akhirnya?
+
+166
+00: 09: 24.510 --> 00: 09: 25.060
+Dan jawabannya adalah tidak.
+
+167
+00: 09: 26.560 --> 00: 09: 31.360
+Kami tidak tahu apa-apa tentang baris 9 lainnya
+karena ia bukan deklarasi formal, dan
+
+168
+00: 09: 31.360 --> 00: 09: 34.130
+oleh karena itu kami tidak bisa
+berasumsi apa pun tentang itu.
+
+169
+00: 09: 34.130 --> 00: 09: 37.290
+Jadi baris 9 tidak berbeda
+seperti baris 8 dari perspektif
+
+170
+00: 09: 37.290 --> 00: 09: 39.040
+scope manager dan kompilator.
+
+171
+00:09: 41.400 --> 00: 09: 44.930
+Kita semua bisa berkata, tunggu sebentar,
+Saya melihat foo, tapi saya tidak melihat bam.
+
+172
+00: 09: 44.930 --> 00: 09: 47.040
+Dan kita tahu ketika menjalankannya
+ia akan melakukan hal yang berbeda.
+
+173
+00: 09: 47.040 --> 00: 09: 50.220
+Tapi itu semua memiliki perspektif
+bahwa kompilator JavaScript
+
+174
+00: 09: 50.220 --> 00: 09: 51.730
+tidak dapat memilikinya pada saat itu.
+
+175
+00: 09: 53.470 --> 00: 09: 57.480
+Pada saat itu, satu-satunya hal yang bisa Anda
+lakukan adalah mengatakan, itu bukan deklarasi, jadi
+
+176
+00: 09: 57.480 --> 00: 09: 58.370
+Saya tidak akan mengkhawatirkannya.
+
+177
+00: 09: 59.480 --> 00: 10: 02.990
+Saya tidak akan mengurutkan kelereng itu
+ke dalam scope itu sekarang.
+
+178
+00: 10: 02.990 --> 00: 10: 03.940
+Kami akan memikirkannya nanti.
+
+179
+00: 10: 07.206 --> 00: 10: 11.294
+& gt; & gt; Pembicara 2: Setelah selesai fungsi
+baz, kami kemudian melanjutkan dan berkata,
+
+180
+00: 10: 11.294 --> 00: 10: 15.450
+apakah ada lagi dalam program ini untuk
+kita untuk di kompilasi?
+
+181
+00: 10: 15.450 --> 00: 10: 17.390
+Menemukan bahwa kita ada di
+akhir dari program ini,
+
+182
+00: 10: 17.390 --> 00: 10: 21.140
+kita hanya akan berasumsi bahwa mungkin ada
+beberapa barang lain di sana yang tidak kita lihat.
+
+183
+00: 10: 21.140 --> 00: 10: 23.220
+Tetapi kita temukan bahwa kita berada di
+akhir dari program.
+
+184
+00: 10: 23.220 --> 00: 10: 24.930
+Kami sekarang selesai dengan mereka,
+hal-hal kompilasi.
+
+185
+00: 10: 26.640 --> 00: 10: 28.350
+Tentu saja kode telah dihasilkan.
+
+186
+00: 10: 28.350 --> 00: 10: 30.090
+Sudah siap untuk dieksekusi.
+
+187
+00: 10: 30.090 --> 00: 10: 33.080
+Tetapi bagian yang penting adalah bahwa
+semua scope tersebut sudah diselesaikan.
+
+188
+00: 10: 35.050 --> 00: 10: 36.740
+Semuanya dengan saya di sana?
+
+189
+00: 10: 36.740 --> 00: 10: 38.150
+Semua kelereng itu.
+
+190
+00: 10: 38.150 --> 00: 10: 38.930
+Semua ember itu.
+
+191
+00: 10: 38.930 --> 00: 10: 39.810
+Mereka sudah diurutkan.

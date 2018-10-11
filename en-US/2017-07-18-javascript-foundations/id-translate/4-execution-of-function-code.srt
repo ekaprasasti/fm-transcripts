@@ -1,0 +1,1300 @@
+WEBVTT
+
+1
+00: 00: 00.450 -> 00: 00: 04.610
+& gt; & gt; Kyle Simpson: Sekarang kita harus merubah
+perhatian kita untuk mengeksekusi kode.
+
+2
+00: 00: 04.610 -> 00: 00: 06.290
+Dan untuk mengeksekusi kode,
+
+3
+00: 00: 06.290 -> 00: 00: 10.200
+kita membutuhkan sedikit lebih banyak informasi
+dan saya mengabaikan pass pertama tersebut.
+
+4
+00: 00: 11.200 -> 00: 00: 15.890
+Ada beberapa informasi meta yang
+ditemukan saat kita berjalan bersama,
+
+5
+00: 00: 15.890 -> 00: 00: 18.537
+hal itu tidak sepenuhnya jelas saat kita kesana.
+
+6
+00: 00: 18.537 -> 00: 00: 22.073
+Dan saya melewatinya, tapi ayo
+kembali dan isi meta information itu.
+
+7
+00: 00: 23.765 -> 00: 00: 28.370
+& gt; & gt; Kyle Simpson: Ada sesuatu yang sangat
+penting mengenai di mana suatu variabel muncul.
+
+8
+00: 00: 29.550 -> 00: 00: 34.430
+Karena di mana ia muncul,
+konteks di mana ia digunakan
+
+9
+00: 00: 34.430 -> 00: 00: 38.170
+menentukan bagaimana terjadinya
+behaviour pada saat dijalankan.
+
+10
+00: 00: 39.180 -> 00: 00: 43.670
+Ingat, saya katakan sebelumnya bahwa sebuah identifier
+hanya dapat berada di salah satu dari dua posisi.
+
+11
+00: 00: 43.670 -> 00: 00: 47.984
+Entah itu di posisi di mana kita berada
+dalam beberapa cara akan membentuk suatu bentuk,
+
+12
+00: 00: 47.984 -> 00: 00: 50.389
+mengekstrak nilai dari variabel, atau
+
+13
+00: 00: 50.389 -> 00: 00: 55.364
+ketika berada di posisi di mana kita berada
+menaruh beberapa nilai ke dalam variabel.
+
+14
+00: 00: 55.364 -> 00: 00: 58.788
+Itu benar-benar hanya dua opsi,
+ok?
+
+15
+00: 00: 58.788 -> 00: 01: 01.710
+Dan ada istilah khusus untuk itu.
+
+16
+00: 01: 01.710 -> 00: 01: 05.830
+Tetapi alasan yang penting adalah bahwa
+kita akan memperlakukannya secara berbeda
+
+17
+00: 01: 05.830 -> 00: 01: 06.391
+ketika runtime.
+
+18
+00: 01: 06.391 -> 00: 01: 11.930
+Akan ada validasi yang berbeda pada hal tertentu
+tergantung pada posisinya.
+
+19
+00: 01: 11.930 -> 00: 01: 15.340
+Sehingga informasi itu disimpan sebagai
+compiler yang sedang berlangsung.
+
+20
+00: 01: 15.340 -> 00: 01: 20.290
+Pada intinya itu semacam sesuatu yang dikenali atau disimpan
+berdasarkan beberapa informasi meta.
+
+21
+00: 01: 20.290 -> 00: 01: 25.496
+Ia tahu misalnya bahwa foo
+di baris 4 ada di Left Hand
+
+22
+00: 01: 25.496 -> 00: 01: 31.966
+Side yang sama sebagai lawan yang ada
+di Right Hand Side yang sama.
+
+23
+00: 01: 31.966 -> 00: 01: 36.580
+Ia tahu posisi apa yang ada di dalam sana,
+dan posisi itu penting.
+
+24
+00: 01: 36.580 -> 00: 01: 39.520
+Jika ada sesuatu pada Left
+Hand Side yang sama,
+
+25
+00: 01: 39.520 -> 00: 01: 41.060
+ini akan menjadi target dari sebuah assignment.
+
+26
+00: 01: 42.630 -> 00: 01: 44.470
+Jika di pada Right
+Hand Side yang sama,
+
+27
+00: 01: 44.470 -> 00: 01: 45.990
+ini akan menjadi sumber dari sebuah assignment.
+
+28
+00: 01: 47.210 -> 00: 01: 49.270
+Ini akan menjadi sumber nilai, oke?
+
+29
+00: 01: 51.150 -> 00: 01: 54.680
+Jadi pada intinya kita memiliki pertanyaan ini
+apakah itu di posisi kiri atau
+
+30
+00: 01: 54.680 -> 00: 01: 55.800
+di posisi kanan?
+
+31
+00: 01: 55.800 -> 00: 01: 59.790
+Pada dasarnya ketika ahli teori
+kompilator berbicara tentang itu,
+
+32
+00: 01: 59.790 -> 00: 02: 02.350
+salah satu hal yang mereka tanyakan
+adalah posisi apa itu?
+
+33
+00: 02: 02.350 -> 00: 02: 03.780
+Ada ketentuan yang berbeda untuk ini.
+
+34
+00: 02: 03.780 -> 00: 02: 07.370
+Saya seorang old school karena saya mengambil komputer
+sains sudah lama sekali.
+
+35
+00: 02: 09.880 -> 00: 02: 13.530
+Profesor saya menyebutnya LHS dan RHS.
+
+36
+00: 02: 14.690 -> 00: 02: 17.405
+LHS adalah singkatan dari left-hand side,
+RHS singkatan?
+
+37
+00: 02: 17.405 -> 00: 02: 19.730
+& gt; & gt; Speaker 2: right-hand side.
+
+38
+00: 02: 19.730 -> 00: 02: 21.816
+& gt; & gt; Kyle Simpson: Ya, ayolah,
+right-hand side, kan?
+
+39
+00: 02: 21.816 -> 00: 02: 24.572
+Sangat mudah.
+Left hand side artinya adalah target
+
+40
+00: 02: 24.572 -> 00: 02: 29.130
+dari assignment, right hand side
+artinya itu sumbernya.
+
+41
+00: 02: 29.130 -> 00: 02: 32.770
+Tidak selalu sumber dari assignment,
+tapi yang pasti sumbernya, oke?
+
+42
+00: 02: 32.770 -> 00: 02: 36.950
+Jadi mungkin lebih bermanfaat untuk dipikirkan
+source target versus left right, LHS, RHS.
+
+43
+00: 02: 36.950 -> 00: 02: 38.822
+Hanya kebiasaan saya menyebutnya LHS,
+
+44
+00: 02: 38.822 -> 00: 02: 42.890
+RHS karena itulah yang saya pelajari
+di hari itu, oke?
+
+45
+00: 02: 42.890 -> 00: 02: 48.500
+Beberapa terminologi modern, akan digunakan
+Nilai L dan nilai R, atau yang lain yang seperti itu.
+
+46
+00: 02: 48.500 -> 00: 02: 50.940
+Apapun istilahnya,
+Anda mengerti bahwa itu adalah target atau
+
+47
+00: 02: 50.940 -> 00: 02: 52.800
+itu sumber, oke?
+
+48
+00: 02: 52.800 -> 00: 02: 55.800
+Itu adalah metadata yang harus kita simpan
+dengan variabel tersebut karena kita akan
+
+49
+00: 02: 55.800 -> 00: 02: 58.250
+memperlakukannya dengan berbeda tergantung pada
+apakah itu target atau sumber.
+
+50
+00: 03: 00.200 -> 00: 03: 02.210
+Jadi metadata itu
+disimpan dengan variabel.
+
+51
+00: 03: 02.210 -> 00: 03: 05.320
+Sekarang, saatnya mengeksekusi kode ini.
+
+52
+00: 03: 05.320 -> 00: 03: 08.850
+Dan sekarang kita mengeksekusi,
+tidak ada lagi deklarasi var, dan
+
+53
+00: 03: 08.850 -> 00: 03: 10.790
+tidak ada lagi deklarasi fungsi.
+
+54
+00: 03: 10.790 -> 00: 03: 12.750
+Kami menangani itu pada waktu kompilasi.
+
+55
+00: 03: 12.750 -> 00: 03: 16.200
+Deklarasi bukanlah hal run time,
+kita tidak perlu khawatir tentang mereka.
+
+56
+00: 03: 16.200 -> 00: 03: 17.950
+Semua yang tersisa adalah kode yang dapat dieksekusi,
+dan
+
+57
+00: 03: 17.950 -> 00: 03: 22.110
+secara teknis itu bahkan tidak dalam source code
+mereka lagi yang bisa kita baca.
+
+58
+00: 03: 22.110 -> 00: 03: 25.584
+Kita akan berpura-pura bahwa itu masih
+ditulis seperti ini meskipun tidak
+
+59
+00: 03: 25.584 -> 00: 03: 26.444
+sebenarnya, oke?
+
+60
+00: 03: 26.444 -> 00: 03: 30.632
+Jadi berpura-pura semua var nya hilang
+dan header fungsi semua hilang dan
+
+61
+00: 03: 30.632 -> 00: 03: 32.797
+semua yang tersisa adalah kode yang dapat dieksekusi.
+
+62
+00: 03: 35.067 -> 00: 03: 39.707
+& gt; & gt; Kyle Simpson: Itu sebabnya saya katakan tadi
+dalam kursus, ketika kita mengucapkan var bar dua kali,
+
+63
+00: 03: 39.707 -> 00: 03: 44.507
+yang kedua tidak ada operasi karena
+kompilator telah menemukan variable bar tersebut,
+
+64
+00: 03: 44.507 -> 00: 03: 47.479
+dan dia berkata,
+apakah kamu pernah mendengar tentang bar?
+
+65
+00: 03: 47.479 -> 00: 03: 49.950
+Dan dia seperti ya, ia mempunyainya.
+
+66
+00: 03: 49.950 -> 00: 03: 54.010
+Maka itu tidak ada operasi, saya tidak perlu menempatkan
+duplikat kelereng lain di dalam ember.
+
+67
+00: 03: 54.010 -> 00: 03: 54.780
+Itu tidak ada operasi.
+
+68
+00: 03: 54.780 -> 00: 03: 57.750
+Jadi pada saat mereka menjalankan kode,
+variable bar tidak ada lagi.
+
+69
+00: 03: 57.750 -> 00: 04: 00.660
+Karena sudah ditangani, oke?
+
+70
+00: 04: 02.140 -> 00: 04: 04.150
+Jadi sekarang kita ingin mengeksekusi kode ini.
+
+71
+00: 04: 04.150 -> 00: 04: 08.150
+Dan kita akan punya dua
+peserta dalam percakapan ini.
+
+72
+00: 04: 09.470 -> 00: 04: 11.263
+Sekarang akan terjadi
+Mesin Virtual JavaScript.
+
+73
+00: 04: 11.263 -> 00: 04: 14.124
+Mesin yang akan melakukan running,
+yang mengeksekusi kode.
+
+74
+00: 04: 14.124 -> 00: 04: 17.840
+Tetapi untuk melakukan pekerjaannya,
+dia harus memiliki akses ke scope.
+
+75
+00: 04: 17.840 -> 00: 04: 20.370
+Jadi dia harus tetap bicara
+ke scope menager, oke?
+
+76
+00: 04: 22.200 -> 00: 04: 26.420
+Sekarang ketika saya melalui percakapan ini, saya
+telah memberi Anda syarat di sini, tapi
+
+77
+00: 04: 26.420 -> 00: 04: 30.800
+Saya akan mengharapkan Anda berpartisipasi
+lebih lanjut tentang ini meskipun kedengarannya konyol.
+
+78
+00: 04: 30.800 -> 00: 04: 33.370
+Saya ingin Anda benar-benar berpartisipasi
+di bagian percakapan ini.
+
+79
+00: 04: 33.370 -> 00: 04: 40.050
+Jadi kita akan bilang aku
+sekarang adalah JavaScript engine.
+
+80
+00: 04: 40.050 -> 00: 04: 42.530
+Kami sedang melihat baris 1,
+tidak ada var di sana.
+
+81
+00: 04: 42.530 -> 00: 04: 45.990
+Tapi saya menemukan foo, dan
+Saya menemukan sebuah foo pada posisi target tersebut,
+
+82
+00: 04: 45.990 -> 00: 04: 49.280
+Saya menemukan sebuah foo di LHS,
+posisi target.
+
+83
+00: 04: 49.280 -> 00: 04: 52.070
+Dan saya perlu mencari tahu apakah variable
+tersebut ada atau tidak.
+
+84
+00: 04: 53.290 -> 00: 04: 56.250
+Mungkin karena saya menggunakan variabel
+yang belum pernah diumumkan, dan
+
+85
+00: 04: 56.250 -> 00: 04: 58.000
+itu detail yang penting.
+
+86
+00: 04: 58.000 -> 00: 05: 00.340
+Jadi saya harus punya
+semacam percakapan bolak balik
+
+87
+00: 05: 00.340 -> 00: 05: 03.090
+dengan scope manajer
+yang dimiliki kompilator.
+
+88
+00: 05: 04.180 -> 00: 05: 08.372
+Percakapan itu akan terjadi
+berjalan seperti ini, hai global scope,
+
+89
+00: 05: 08.372 -> 00: 05: 11.945
+Saya punya referensi LHS untuk
+variabel yang disebut foo.
+
+90
+00: 05: 11.945 -> 00: 05: 13.170
+Pernah mendengarnya?
+
+91
+00: 05: 14.250 -> 00: 05: 16.597
+Itu lagi,
+salah satu dari pertanyaan ya / tidak.
+
+92
+00: 05: 16.597 -> 00: 05: 18.355
+Tapi ada yang lebih baru di sini.
+
+93
+00: 05: 18.355 -> 00: 05: 23.710
+Berapa banyak dari Anda yang pernah bermain atau melihat
+game Go Fish, permainan kartu Go Fish.
+
+94
+00: 05: 23.710 -> 00: 05: 24.700
+Ada yang pernah mendengar itu?
+
+95
+00: 05: 24.700 -> 00: 05: 25.815
+Oke, jadi saya mempunya anak-anak yang masih muda.
+
+96
+00: 05: 25.815 -> 00: 05: 28.820
+Saya mendapat anak yang berumur usia empat tahun dan enam tahun
+di rumah dan saya suka bermain Go Fish.
+
+97
+00: 05: 28.820 -> 00: 05: 31.410
+Putraku, dia enam tahun,
+saya suka bermain Go Fish dengannya.
+
+98
+00: 05: 31.410 -> 00: 05: 34.169
+Dia hampir mencapai titik di mana
+dia bisa memegang kartunya sendiri, tapi
+
+99
+00: 05: 34.169 -> 00: 05: 36.778
+dia masih suka men-set dan
+me-arrage dan semacam itu.
+
+100
+00: 05: 36.778 -> 00: 05: 39.878
+Dan saya suka harus berpura-pura bahwa saya
+tidak melihat kartunya dan aku seperti,
+
+101
+00: 05: 39.878 -> 00: 05: 41.490
+hei kamu punya delapan?
+
+102
+00: 05: 41.490 -> 00: 05: 45.660
+Tapi apa yang saya sukai tentang game Go Fish
+adalah itu hanya premis sederhana.
+
+103
+00: 05: 45.660 -> 00: 05: 48.715
+Saya mengajukan pertanyaan,
+apakah Anda memiliki variabel foo?
+
+104
+00: 05: 48.715 -> 00: 05: 53.451
+Dan hanya ada dua jawaban,
+selain ya kembalilah atau apa?
+
+105
+00: 05: 53.451 -> 00: 05: 55.387
+& gt; & gt; Pembicara 2: Go Fish.
+
+106
+00: 05: 55.387 -> 00: 05: 56.350
+& gt; & gt; Kyle Simpson: Go Fish.
+
+107
+00: 05: 56.350 -> 00: 05: 57.510
+Pergi cari di tempat lain.
+
+108
+00: 05: 57.510 -> 00: 05: 58.480
+Dalam permainan Go Fish,
+
+109
+00: 05: 58.480 -> 00: 06: 02.260
+Saya harus pergi ke dek untuk melihat apakah saya bisa
+menarik keluar kartu yang saya cari.
+
+110
+00: 06: 02.260 -> 00: 06: 04.830
+Di sini, premis yang sama berlaku.
+
+111
+00: 06: 04.830 -> 00: 06: 06.868
+Saya engine dan
+Saya mencari kelereng.
+
+112
+00: 06: 06.868 -> 00: 06: 10.870
+Saya memiliki referensi ke kelereng ini,
+tapi saya membutuhkannya.
+
+113
+00: 06: 10.870 -> 00: 06: 14.330
+Ini pekerjaan scope manager untuk pergi memberitahuku
+ember itu dan menyerahkannya padaku,
+
+114
+00: 06: 14.330 -> 00: 06: 15.460
+jika ada.
+
+115
+00: 06: 15.460 -> 00: 06: 19.840
+Jadi saya katakan, hey scope manager, hei
+global scope, saya memiliki nilai target ini,
+
+116
+00: 06: 19.840 -> 00: 06: 23.110
+nilai l ini, foo LHS ini,
+pernah mendengar tentang mereka?
+
+117
+00: 06: 24.300 -> 00: 06: 27.360
+Dan jika dia punya, dia harus mendapatkan
+kelereng saya, dan jika tidak, dia harus memberitahuku,
+
+118
+00: 06: 27.360 -> 00: 06: 28.860
+tidak, maaf, cari di tempat lain.
+
+119
+00: 06: 30.390 -> 00: 06: 31.670
+Apa jawabannya kali ini?
+
+120
+00: 06: 33.020 -> 00: 06: 33.660
+& gt; & gt; Pembicara 3: Ya.
+
+121
+00: 06: 33.660 -> 00: 06: 36.590
+& gt; & gt; Kyle Simpson: Ya saya punya
+karena pada waktu kompilator,
+
+122
+00: 06: 36.590 -> 00: 06: 41.660
+kami menambahkan variabel foo ke scope itu,
+kita menambahkan kelereng merah, kan?
+
+123
+00: 06: 43.510 -> 00: 06: 46.470
+Jadi global scope manager akan mendapatkan
+kelereng merah itu dan mengembalikannya padaku.
+
+124
+00: 06: 47.490 -> 00: 06: 51.000
+Dan sekarang, saya mempunyai variabel, saya punya
+lokasi di memori, saya bisa ke right
+
+125
+00: 06: 51.000 -> 00: 06: 54.720
+hand side, menemukan nilai yang merupakan
+quote bar, dan saya bisa membuat sebuah assignment.
+
+126
+00: 06: 55.920 -> 00: 06: 56.960
+Apakah Anda mengikuti bagaimana itu terjadi?
+
+127
+00: 06: 58.730 -> 00: 07: 01.980
+Itu hanya terjadi karena ada
+deklarasi formal untuk saya temukan.
+
+128
+00: 07: 03.410 -> 00: 07: 06.276
+Seandainya saya mencoba melakukan itu dan
+jawabannya tidak,
+
+129
+00: 07: 06.276 -> 00: 07: 09.095
+hasil akhir yang berbeda
+akan terjadi, oke?
+
+130
+00: 07: 09.095 -> 00: 07: 11.610
+Kita akan membahasnya sebentar lagi.
+
+131
+00: 07: 11.610 -> 00: 07: 16.060
+Sekarang kita tidak melihat bagian lain dari
+program ini untuk mengeksekusi bar atau
+
+132
+00: 07: 16.060 -> 00: 07: 16.890
+fungsi baz.
+
+133
+00: 07: 16.890 -> 00: 07: 19.179
+Ini sengaja karena aku tidak ingin melakukannya
+untuk membuat segalanya lebih rumit.
+
+134
+00: 07: 20.210 -> 00: 07: 22.180
+Kami tidak melihat bar dan
+baz dieksekusi, jadi
+
+135
+00: 07: 22.180 -> 00: 07: 26.230
+mari kita berpura-pura bahwa yang lain
+merupakan bagian dari proses ini dan mengeksekusinya.
+
+136
+00: 07: 26.230 -> 00: 07: 29.760
+Mungkin mereka dieksekusi sebagai
+click handler, atau pada timer,
+
+137
+00: 07: 29.760 -> 00: 07: 31.150
+atau hanya di beberapa bagian lain dari program ini.
+
+138
+00: 07: 31.150 -> 00: 07: 33.650
+Seseorang memanggil fungsi bar.
+
+139
+00: 07: 33.650 -> 00: 07: 35.910
+Jadi mari kita jalankan isi dari var dan
+
+140
+00: 07: 35.910 -> 00: 07: 38.010
+kita akan melakukannya dengan tepat
+sama seperti yang kita lakukan sebelumnya.
+
+141
+00: 07: 39.320 -> 00: 07: 42.150
+Kita akan mulai dengan baris 4 ini.
+
+142
+00: 07: 42.150 -> 00: 07: 47,480
+Dan di baris 4, tidak ada var di sana,
+hanya ada persamaan foo.
+
+143
+00: 07: 47.480 -> 00: 07: 49.460
+Jadi bagaimana percakapan itu akan dimulai?
+
+144
+00: 07: 49.460 -> 00: 07: 50.830
+Scope mana yang kita ajak bicara?
+
+145
+00: 07: 53.380 -> 00: 07: 58.370
+Scope bar,
+Saya punya referensi seperti apa?
+
+146
+00: 07: 58.370 -> 00: 07: 59.920
+& gt; & gt; Pembicara 4: Yah ada bar juga.
+
+147
+00: 07: 59.920 -> 00: 08: 01.130
+Apa maksudmu dengan tidak ada-
+& gt; & gt; Kyle Simpson: Itu sudah lama
+
+148
+00: 08: 01.130 -> 00: 08: 02.130
+dikompilasi.
+
+149
+00: 08: 02.130 -> 00: 08: 03.440
+Kami sedang mengeksekusinya, kan?
+
+150
+00: 08: 03.440 -> 00: 08: 05.330
+& gt; & gt; Kyle Simpson: Tidak ada bar,
+ia sudah dikompilasi.
+
+151
+00: 08: 07.230 -> 00: 08: 11.562
+Scope bar,
+Saya punya referensi seperti apa?
+
+152
+00: 08: 11.562 -> 00: 08: 14.739
+Saya punya referensi LHS,
+nilai L, sebuah target,
+
+153
+00: 08: 14.739 -> 00: 08: 17.606
+apa pun yang Anda sebutkan, untuk foo.
+
+154
+00: 08: 17.606 -> 00: 08: 20.022
+Pernah mendengar tentang mereka dan jawabannya adalah?
+
+155
+00: 08: 20.022 -> 00: 08: 20.735
+& gt; & gt; Pembicara 2: Ya.
+
+156
+00: 08: 20.735 -> 00: 08: 24.294
+& gt; & gt; Kyle Simpson: Ya, karena Anda menyatakan
+dia secara formal selama langkah kompilasi
+
+157
+00: 08: 24.294 -> 00: 08: 25.099
+dalam scope ini.
+
+158
+00: 08: 25.099 -> 00: 08: 28.045
+Ini kelereng Anda.
+
+159
+00: 08: 28.045 -> 00: 08: 29.360
+Jadi sekarang kita punya kelereng.
+
+160
+00: 08: 29.360 -> 00: 08: 32.703
+Kami pergi ke right hand side pada baris 4, kami
+temukan kutipan baz yang merupakan nilai langsung.
+
+161
+00: 08: 32.703 -> 00: 08: 36.030
+Kami membuat assignment,
+baris 4 telah selesai.
+
+162
+00: 08: 36.030 -> 00: 08: 36.662
+Apakah saya sudah kehilangan seseorang?
+
+163
+00: 08: 36.662 -> 00: 08: 39.618
+Masuk akal?
+
+164
+00: 08: 39.618 -> 00: 08: 41.680
+Baiklah,
+
+165
+00: 08: 41.680 -> 00: 08: 46.240
+sekarang suatu saat nanti ada seseorang
+memutuskan untuk menjalankan fungsi baz.
+
+166
+00: 08: 46.240 -> 00: 08: 50.220
+Untuk saat ini kita akan menganggap
+mereka itu tidak lolos dalam argumen apa pun.
+
+167
+00: 08: 52.000 -> 00: 08: 54.240
+Karena ada parameter yang
+bisa menerima argumen.
+
+168
+00: 08: 54.240 -> 00: 08: 55.800
+Mari kita abaikan argumen yang disampaikan untuk saat ini.
+
+169
+00: 08: 55.800 -> 00: 09: 00.140
+Anggap saja mereka memohon
+fungsi baz, oke?
+
+170
+00: 09: 00.140 -> 00: 09: 01.800
+Kita harus mulai mengeksekusi dengan baris 8.
+
+171
+00: 09: 03.730 -> 00: 09: 05.740
+Baris 8, bagaimana kabarnya.
+
+172
+00: 09: 05.740 -> 00: 09: 06.606
+Scope apa yang kita bicarakan?
+
+173
+00: 09: 06.606 -> 00: 09: 07.106
+& gt; & gt; Pembicara 2: Baz.
+
+174
+00: 09: 08.780-> 00: 09: 11.400
+& gt; & gt; Kyle Simpson: Hai scope baz.
+
+175
+00: 09: 11.400 -> 00: 09: 14.718
+Saya punya referensi seperti apa untuk foo?
+
+176
+00: 09: 14.718 -> 00: 09: 15.551
+Saya punya LHS.
+
+177
+00: 09: 15.551 -> 00: 09: 17.358
+Nilai L, sebuah referensi target untuk foo.
+
+178
+00: 09: 17.358 -> 00: 09: 18.638
+Pernah mendengar tentang dia, jawabannya adalah?
+
+179
+00: 09: 18.638 -> 00: 09: 20.570
+& gt; & gt; Pembicara 4: Ya.
+
+180
+00: 09: 20.570 -> 00: 09: 21.070
+& gt; & gt; Kyle Simpson: Mengapa?
+
+181
+00: 09: 22.690 -> 00: 09: 25.158
+Karena disana ada perameter foo pada baris 7,
+ya kan?
+
+182
+00: 09: 25.158 -> 00: 09: 28.437
+Pada Baris 7, Anda secara formal membersihkannya,
+jadi untuk semua maksud dan
+
+183
+00: 09: 28.437 -> 00: 09: 33.260
+tujuan itu adalah variabel yang kita bisa
+akses, kita dapat assign juga, oke?
+
+184
+00: 09: 33.260 -> 00: 09: 36.060
+Hebat, jadi sekarang saya punya kelereng hijau saya.
+
+185
+00: 09: 37.650 -> 00: 09: 40.960
+Saya punya kelereng saya, dan
+Saya pergi ke right hand side dari quote bam.
+
+186
+00: 09: 40.960 -> 00: 09: 43.720
+Saya menetapkan quote bam ke dalam variabel itu,
+dan kami selesai dengan baris 8.
+
+187
+00: 09: 43.720 -> 00: 09: 45.170
+Kita sejauh ini bagus?
+
+188
+00: 09: 46.590 -> 00: 09: 48.780
+Sekarang akhirnya kita kembali ke baris 9.
+
+189
+00: 09: 48.780 -> 00: 09: 51.830
+Yang kami lewatkan pada dasarnya
+selama kompilasi.
+
+190
+00: 09: 51.830 -> 00: 09: 54.470
+Kami tidak melakukan apapun
+dengan scope tersebut.
+
+191
+00: 09: 54.470 -> 00: 09: 58.950
+Kami terus melacak fakta bahwa
+itu berada didalam posisi nilai L, tapi
+
+192
+00: 09: 58.950 -> 00: 10: 01.800
+kami tidak melakukan apa pun dengan alasan itu.
+
+193
+00: 10: 01.800 -> 00: 10: 04.864
+Dan sekarang kita perlu bertanya apa
+itu akan dilakukan pada saat runtime?
+
+194
+00: 10: 06.490 -> 00: 10: 11.080
+Jadi percakapan itu perlu
+berjalan sama persis seperti sebelumnya.
+
+195
+00: 10: 11.080 -> 00: 10: 11.670
+Jadi bagaimana hasilnya?
+
+196
+00: 10: 13.280 -> 00: 10: 14.245
+Scope?
+
+197
+00: 10: 14.245 -> 00: 10: 14.949
+& gt; & gt; Pembicara 2: Baz.
+
+198
+00: 10: 14.949 -> 00: 10: 17.909
+& gt; & gt; Kyle Simpson: Baz, saya punya
+& gt; & gt; Pembicara 2: LHS 4.
+
+199
+00: 10: 17.909 -> 00: 10: 18.676
+& gt; & gt; Kyle Simpson: LHS 4.
+
+200
+00: 10: 18.676 -> 00: 10: 19.652
+& gt; & gt; Pembicara 2: Bam.
+
+201
+00: 10: 19.652 -> 00: 10: 20.407
+& gt; & gt; Kyle Simpson: Bam.
+
+202
+00: 10: 20.407 -> 00: 10: 21.124
+Pernah dengar tentang dia?
+
+203
+00: 10: 21.124 -> 00: 10: 21.924
+Dan jawabannya adalah?
+
+204
+00: 10: 21.924 -> 00: 10: 22.565
+& gt; & gt; Pembicara 2: Go Fish.
+
+205
+00: 10: 22.565 -> 00: 10: 23.348
+& gt; & gt; Kyle Simpson: Go Fish.
+
+206
+00: 10: 23.348 -> 00: 10: 25.396
+& gt; & gt; Pembicara 2: [TERTAWA]
+& gt; & gt; Kyle Simpson: Baiklah,
+
+207
+00: 10: 25.396 -> 00: 10: 28.960
+karena tidak ada bam
+yan dinyatakan dalam scope itu.
+
+208
+00: 10: 28.960 -> 00: 10: 34.920
+Jadi sekarang kita perlu memahami apa yang terjadi
+artinya go fish dalam hal leksikal slope.
+
+209
+00: 10: 34.920 -> 00: 10: 37.100
+Lexical scope merupakan nested.
+
+210
+00: 10: 37.100 -> 00: 10: 41.222
+Jadi, perilaku default akan mengatakan
+saya akan naik satu tingkat scope dan
+
+211
+00: 10: 41.222 -> 00: 10: 42.525
+mengajukan pertanyaan lagi.
+
+212
+00: 10: 42.525 -> 00: 10: 47.120
+Dalam hal ini yang naik satu
+tingkat adalah global scope.
+
+213
+00: 10: 47.120 -> 00: 10: 53.766
+Jadi kita akan naik ke global scope
+dan berkata, hai global scope apakah saya memilikinya?
+
+214
+00: 10: 53.766 -> 00: 10: 54.933
+& gt; & gt; Pembicara 2: LHS-
+& gt; & gt; Kyle Simpson: LHS untuk bam.
+
+215
+00: 10: 54.933 -> 00: 10: 56.037
+Pernah dengar tentang dia?
+
+216
+00: 10: 56.037 -> 00: 10: 56.676
+Dan jawabannya.
+
+217
+00: 10: 56.676 -> 00: 10: 57.413
+& gt; & gt; Pembicara 2: Go Fish.
+
+218
+00: 10: 57.413 -> 00: 11: 04.860
+& gt; & gt; Kyle Simpson: Oke, jadi kami akan melihat
+untuk jawabannya tidak atau go fish.
+
+219
+00: 11: 04.860 -> 00: 11: 08.830
+Tidak ada tempat lain untuk pergi,
+karena skala global adalah akhirnya, kan?
+
+220
+00: 11: 08.830 -> 00: 11: 09.900
+Itu deknya.
+
+221
+00: 11: 09.900 -> 00: 11: 11.883
+Itu ada di sana atau tidak ada.
+
+222
+00: 11: 11.883 -> 00: 11: 17.170
+Akan lebih baik jika mengatakan tidak atau
+memberikan error atau
+
+223
+00: 11: 17.170 -> 00: 11: 22.550
+semua seperti hal itu, tapi sayangnya
+kami memiliki keputusan historis
+
+224
+00: 11: 22.550 -> 00: 11: 27.720
+yang dibuat di awal JavaScript untuk menjadi lebih
+friendly dan forgiving, saya kira.
+
+225
+00: 11: 28.900 -> 00: 11: 32.790
+Apa yang global scope sebenarnya
+katakan adalah baik, tidak, tapi saya pergi ke depan dan
+
+226
+00: 11: 32.790 -> 00: 11: 34.030
+menciptakan satu untuk Anda juga.
+
+227
+00: 11: 34.030 -> 00: 11: 34.740
+Apakah saya tidak membantu?
+
+228
+00: 11: 36.660 -> 00: 11: 37.160
+Apa?
+
+229
+00: 11: 38.660 -> 00: 11: 41.620
+Itu secara implisit dibuat
+global saat run time,
+
+230
+00: 11: 42.700 -> 00: 11: 45.310
+karena tidak dapat ditemukan
+satu deklarasi formal.
+
+231
+00: 11: 46.940 -> 00: 11: 49.120
+Jadi sekarang kita memiliki global
+variabel yang disebut bam.
+
+232
+00: 11: 49.120 -> 00: 11: 52.330
+kita memiliki kelereng merah yang disebut
+bam yang kita dapatkan untuk diserahkan kembali.
+
+233
+00: 11: 52.330 -> 00: 11: 54.120
+Dan ketika kita membuat assignment di baris 9,
+
+234
+00: 11: 54.120 -> 00: 11: 56.540
+kami menugaskannya ke global
+variabel yang disebut bam.
+
+235
+00: 11: 58.760 -> 00: 11: 59.260
+Kamu melihatnya?
+
+236
+00: 12: 00.910 -> 00: 12: 06.440
+Sekarang proses itu baru saja
+saya jelaskan di mana kita secara implisit membuat
+
+237
+00: 12: 06.440 -> 00: 12: 11.310
+global sebagai hasil dari assignment ke
+variable tersebut tidak pernah secara formal dideklarasikan.
+
+238
+00: 12: 12.880 -> 00: 12: 15.373
+Itu hampir selalu menjadi kesalahan.
+
+239
+00: 12: 17.727 -> 00: 12: 21.135
+& gt; & gt; Kyle Simpson: Biarkan saya mengatakannya seperti ini,
+jika Anda melakukan itu dengan sengaja,
+
+240
+00: 12: 21.135 -> 00: 12: 22.200
+berhenti melakukan itu.
+
+241
+00: 12: 24.270 -> 00: 12: 26.130
+Itu bukan cara yang tepat untuk melakukannya.
+
+242
+00: 12: 28.050 -> 00: 12: 30.660
+Jangan pernah menggunakan kode ini
+
+243
+00: 12: 30.660 -> 00: 12: 35.000
+dengan asumsi bahwa Anda akan membuat secara implisit
+sebuah deklarasi di beberapa global scope.
+
+244
+00: 12: 35.000 -> 00: 12: 36.360
+Itu ide yang buruk.
+
+245
+00: 12: 36.360 -> 00: 12: 36.880
+Iya kan?
+
+246
+00: 12: 36.880 -> 00: 12: 41.253
+& gt; & gt; Pembicara 3: Jadi
+apakah prosesnya sama jika itu LHS?
+
+247
+00: 12: 43.884 -> 00: 12: 46.317
+& gt; & gt; Kyle Simpson: Kami sedang berbicara tentang
+LHS, apa kau mengatakan kalau itu sama?
+
+248
+00: 12: 46.317 -> 00: 12: 47.900
+& gt; & gt; Pembicara 3: RHS.
+
+249
+00: 12: 47.900 -> 00: 12: 49.960
+& gt; & gt; Kyle Simpson: Kami akan melakukannya
+sampai ke RHS sedikit,
+
+250
+00: 12: 49.960 -> 00: 12: 51.510
+pegang pertanyaan itu, oke?
+
+251
+00: 12: 52.770 -> 00: 12: 57.093
+Saat ini kita sedang berbicara tentang LHS,
+dan LHS yang tidak dideklarasikan atau
+
+252
+00: 12: 57.093 -> 00: 13: 02.232
+LHS yang tidak terpenuhi, karena saya suka menyebutnya,
+hasil dari auto global implisit.
+
+253
+00: 13: 02.232 -> 00: 13: 04.750
+Dan itu adalah hal yang mengerikan, mengerikan.
+
+254
+00: 13: 05.890 -> 00: 13: 07.930
+Oke, mengerikan karena kebingungan.
+
+255
+00: 13: 07.930 -> 00: 13: 09.543
+Anda akhirnya secara tidak sengaja membuat dan
+
+256
+00: 13: 09.543 -> 00: 13: 11.942
+Menimpa variabel tersebut
+Anda tidak pernah bermaksud melakukannya.
+
+257
+00: 13: 15.174 -> 00: 13: 18.553
+& gt; & gt; Kyle Simpson: Karena itu
+hampir selalu menjadi kesalahan,
+
+258
+00: 13: 18.553 -> 00: 13: 25.270
+ternyata jika kita menggunakan strict mode,
+sebenarnya ini sekarang adalah error.
+
+259
+00: 13: 25.270 -> 00: 13: 28.490
+Jadi semua proses yang sama saya
+pergi ke slide sebelumnya,
+
+260
+00: 13: 28.490 -> 00: 13: 31.740
+Jika saya melakukannya dengan strict mode,
+itulah yang saya lakukan di sini.
+
+261
+00: 13: 33.570 -> 00: 13: 35.720
+Saya telah mengaktifkan strict mode
+pada program atau
+
+262
+00: 13: 35.720 -> 00: 13: 37.970
+Saya bisa melakukannya
+di tingkat fungsi.
+
+263
+00: 13: 37.970 -> 00: 13: 42.420
+Dalam kasus lain, ketika kita harus melakukannya
+pada baris 11 sekarang dan kami berkata hei,
+
+264
+00: 13: 42.420 -> 00: 13: 45.100
+globl scope, saya memiliki LHS ini untuk
+bam, pernah mendengarnya?
+
+265
+00: 13: 45.100 -> 00: 13: 50.014
+Global scope akan dicegah
+dari menciptakan variabel itu karena
+
+266
+00: 13: 50.014 -> 00: 13: 53.680
+strict mode dan
+satu-satunya pilihan lainnya adalah
+
+267
+00: 13: 53.680 -> 00: 13: 57.439
+melempar error karena itu
+tidak dapat di buatnya secara implisit.
+
+268
+00: 13: 57.439 -> 00: 13: 59.303
+Ia harus melempar error dan
+
+269
+00: 13: 59.303 -> 00: 14: 03.110
+khususnya error itu
+disebut reference error.
+
+270
+00: 14: 04.830 -> 00: 14: 07.940
+Kesalahan referensi, bam tidak didefinisikan.
+
+271
+00: 14: 09.820 -> 00: 14: 11.050
+Itu benar-benar apa yang dikatakannya.
+
+272
+00: 14: 13.270 -> 00: 14: 18.090
+Itu tidak berarti sama dengan
+kesalahan referensi bam tidak terdefinisi.
+
+273
+00: 14: 19.850 -> 00: 14: 24.270
+Ingat, sebelumnya di kursus kita, kita berbicara
+tentang perbedaan antara undefined dan
+
+274
+00: 14: 24.270 -> 00: 14: 25.230
+undeclared.
+
+275
+00: 14: 25.230 -> 00: 14: 29.082
+Bam adalah variabel yang tidak dideklarasikan yang
+kita baru mulai mencoba men-assign-nya.
+
+276
+00: 14: 29.082 -> 00: 14: 32.610
+Ini bukan variabel yang tidak terdefinisi.
+
+277
+00: 14: 34.890 -> 00: 14: 40.890
+Variabel yang tidak terdefinisi adalah salah satunya
+sudah ada yang dideklarasikan,
+
+278
+00: 14: 40.890 -> 00: 14: 42.130
+tetapi saat ini tidak ada nilainya.
+
+279
+00: 14: 43.560 -> 00: 14: 44.150
+Itu tidak terdefinisi.
+
+280
+00: 14: 45.210 -> 00: 14: 50.600
+Saya benar-benar berharap pada pesan error itu,
+bahwa kesalahan referensi bam tidak dideklarasikan.
+
+281
+00: 14: 50.600 -> 00: 14: 52.680
+Karena itu banyak
+pernyataan yang lebih akurat.
+
+282
+00: 14: 54.180 -> 00: 14: 58.270
+Saya telah meminta mereka untuk memperbaiki pesan error itu
+selama sekitar lima tahun, dan
+
+283
+00: 14: 58.270 -> 00: 14: 59.220
+mereka belum memperbaikinya.
