@@ -1,0 +1,95 @@
+WEBVTT
+
+1
+00: 00: 00.000 --> 00: 00: 04.719
+& gt; & gt; Pembicara 1: Bagaimana perasaan Anda
+sejauh ini mengenai proses menanyakan
+
+2
+00: 00: 04.719 --> 00: 00: 07.702
+pertanyaan tentang bam dan di mana foo berada?
+
+3
+00: 00: 07.702 --> 00: 00: 09.158
+Anda merasa sedikit lebih percaya diri?
+
+4
+00: 00: 09.158 --> 00: 00: 11.422
+Mari kita uji itu.
+
+5
+00: 00: 11.422 --> 00: 00: 15.518
+Bagi Anda yang ada di sini secara pribadi,
+Saya ingin Anda benar-benar menemukan seseorang
+
+6
+00: 00: 15.518 --> 00: 00: 17.961
+yang duduk di sebelah Anda atau
+berdiri dan berjalan-jalan.
+
+7
+00: 00: 17.961 --> 00: 00: 21.295
+Apa yang akan kamu lakukan adalah kamu
+akan melalui role permainan ini.
+
+8
+00: 00: 21.295 --> 00: 00: 22.715
+Anda akan berjalan melalui langkah-langkah itu.
+
+9
+00: 00: 22.715 --> 00: 00: 25.257
+Kita akan kembali pada slide dan
+melakukan tanpa strict mode.
+
+10
+00: 00: 25.257 --> 00: 00: 29.293
+Pada slide ini, Anda akan melewatinya,
+dan kamu akan bermain.
+
+11
+00: 00: 29.293 --> 00: 00: 34.423
+Salah satu dari Anda akan memainkan peran scope manager dan
+salah satu dari Anda akan memainkan peran kompilator,
+
+12
+00: 00: 34.423 --> 00: 00: 39.540
+dan kemudian bertukar, lalu kemudian pergi menuju
+run time dan melakukan kedua peran tersebut, oke?
+
+13
+00: 00: 39.540 --> 00: 00: 41.318
+Dan lakukan persis seperti yang baru saya katakan.
+
+14
+00: 00: 41.318 --> 00: 00: 45.430
+Hai, global scope, saya memiliki LHS ini untuk
+foo, pernah mendengarnya melakukan hal itu.
+
+15
+00: 00: 45.430 --> 00: 00: 49.600
+Meskipun kedengarannya konyol, kita perlu
+untuk memastikan bahwa Anda sepenuhnya mengerti.
+
+16
+00: 00: 49.600 --> 00: 00: 52.520
+Jika Anda menonton video ini di
+lain waktu, cari rekan kerja dan
+
+17
+00: 00: 52.520 --> 00: 00: 54.660
+lakukan latihan dengan mereka, oke?
+
+18
+00: 00: 54.660 --> 00: 00: 58.110
+Tetapi sebenarnya lakukan ini karena ini
+adalah bagaimana Anda mengerti sampai mendarah daging,
+
+19
+00: 00: 58.110 --> 00: 01: 01.520
+naluri bagaimana leksikal
+scope berfungsi, oke?
+
+20
+00: 01: 01.520 --> 00: 01: 03.710
+Kita akan mengambil beberapa menit, biarkan Anda
+berlatih, dan kemudian kita akan kembali.

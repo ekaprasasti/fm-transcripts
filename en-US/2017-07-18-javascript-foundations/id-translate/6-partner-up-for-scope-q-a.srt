@@ -1,0 +1,144 @@
+WEBVTT
+
+1
+00: 00: 00.000 --> 00: 00: 03.749
+& gt; & gt; Kyle Simpson: Pertanyaan apa yang muncul
+sebagai hasil dari melakukannya dengan tetangga
+
+2
+00: 00: 03.749 --> 00: 00: 05.201
+anda, apa saja?
+
+3
+00: 00: 05.201 --> 00: 00: 10.242
+& gt; & gt; Pembicara 2: Jadi kami memiliki back dan
+forth pada baris delapan dan sembilan tentang apakah
+
+4
+00: 00: 10.242 --> 00: 00: 15.116
+foo ditangani pada waktu kompilasi atau
+diserahkan ke fase kedua.
+
+5
+00: 00: 15.116 --> 00: 00: 18.704
+& gt; & gt; Kyle Simpson: Oke, yang mana,
+foo di baris delapan adalah pertanyaannya?
+
+6
+00: 00: 18.704 --> 00: 00: 19.433
+& gt; & gt; Pembicara 2: Ya.
+
+7
+00: 00: 19.433 --> 00: 00: 23.390
+& gt; & gt; Kyle Simpson: Oke, jadi foo pada baris
+kedelapan tidak ditangani pada waktu kompilasi
+
+8
+00: 00: 23.390 --> 00: 00: 26.909
+dari perspektif kebutuhan
+untuk menyimpan itu adalah metadata,
+
+9
+00: 00: 26.909 --> 00: 00: 28.832
+bahwa hal itu dalam posisi LHS.
+
+10
+00: 00: 28.832 --> 00: 00: 32.002
+Tapi foo pada baris 8 tidak
+membuat entri variabel,
+
+11
+00: 00: 32.002 --> 00: 00: 36.888
+tidak membuat kelereng dan menaruhnya
+dalam ember, yang terjadi pada jalur 7.
+
+12
+00: 00: 36.888 --> 00: 00: 38.374
+& gt; & gt; Speaker 2: Oke.
+
+13
+00: 00: 38.374 --> 00: 00: 39.879
+& gt; & gt; Kyle Simpson: Jadi agak keduanya.
+
+14
+00: 00: 43.684 --> 00: 00: 44.923
+& gt; & gt; Kyle Simpson: Apa lagi?
+
+15
+00: 00: 46.615 --> 00: 00: 51.258
+& gt; & gt; Pembicara 2: Apakah ada cara yang baik
+mengakses baris satu dari baris empat
+
+16
+00: 00: 51.258 --> 00: 00: 51.895
+setengah?
+
+17
+00: 00: 51.895 --> 00: 00: 55.817
+& gt; & gt; Kyle Simpson: Tidak, satu-satunya cara untuk
+mengakses variabel global, Anda bisa
+
+18
+00: 00: 55.817 --> 00: 01: 00.700
+menggunakan cheat variabel global
+yang merupakan properti dari objek global.
+
+19
+00: 01: 00.700 --> 00: 01: 04.484
+Yang umumnya disukai, tapi
+jika Anda benar-benar membutuhkan Anda bisa melakukan itu.
+
+20
+00: 01: 04.484 --> 00: 01: 06.700
+& gt; & gt; Pembicara 2: Jadi, apa yang best
+practice jika hal itu yang terjadi?
+
+21
+00: 01: 06.700 --> 00: 01: 08.379
+& gt; & gt; Kyle Simpson: Ya
+best practice nya adalah,
+
+22
+00: 01: 08.379 --> 00: 01: 11.448
+jangan shodow jika kamu
+akan membutuhkan akses ke sana.
+
+23
+00: 01: 11.448 --> 00: 01: 12.744
+& gt; & gt; Pembicara 2: Saya minta maaf,
+apa pertanyaannya?
+
+24
+00: 01: 12.744 --> 00: 01: 14.612
+& gt; & gt; Kyle Simpson: Pertanyaannya adalah,
+di baris empat setengah
+
+25
+00: 01: 14.612 --> 00: 01: 17.634
+apakah ada cara untuk mengakses
+foo dari baris satu?
+
+26
+00: 01: 17.634 --> 00: 01: 21.165
+& gt; & gt; Speaker 2: Foo dari baris satu, dan
+kemudian baris keempat, apakah itu kelereng yang sama?
+
+27
+00: 01: 21.165 --> 00: 01: 24.965
+Atau mereka diberi kelereng
+dalam scope yang berbeda, benar, ya.
+
+28
+00: 01: 24.965 --> 00: 01: 28.159
+& gt; & gt; Kyle Simpson: Foo dari baris 1
+adalah kelereng merah di ember merah,
+
+29
+00: 01: 28.159 --> 00: 01: 31.510
+foo dari baris 4 berwarna kelereng
+biru di ember biru.
+
+30
+00: 01: 36.372 --> 00: 01: 37.670
+& gt; & gt; Kyle Simpson: Itu sebabnya
+kami menyebutnya shadowing.
