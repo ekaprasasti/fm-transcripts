@@ -1,0 +1,828 @@
+WEBVTT
+
+1
+00: 00: 00.380 --> 00: 00: 03.210
+& gt; & gt; Kyle Simpson: Untuk sesaat, beberapa pemikiran tentang
+strict mode.
+
+2
+00: 00: 03.210 --> 00: 00: 05.390
+Jika Anda belum menggunakan 
+strict mode untuk
+
+3
+00: 00: 05.390 --> 00: 00: 08.340
+semua program Anda,
+apa yang kamu tunggu?
+
+4
+00: 00: 10.550 --> 00: 00: 15.520
+Karena ada perbedaan
+antara aku terlambat menggunakannya dengan
+
+5
+00: 00: 15.520 --> 00: 00: 16.990
+Saya meninggalkannya.
+
+6
+00: 00: 18.520 --> 00: 00: 20.690
+Sekarang, saya adalah pengguna lama
+dengan strict mode.
+
+7
+00: 00: 21.810 --> 00: 00: 28.139
+Saya tidak mengadopsinya ketika pertama kali datang
+sekitar, tapi itu pada tahun 2008, 2009.
+
+8
+00: 00: 28.139 --> 00: 00: 31.090
+Sekarang 2017 saat kami merekam ini.
+
+9
+00: 00: 31.090 --> 00: 00: 32.633
+Itu waktu yang sangat lama.
+
+10
+00: 00: 32.633 --> 00: 00: 34.990
+Restrict mode sudah ditentukan dengan baik.
+
+11
+00: 00: 34.990 --> 00: 00: 39.494
+Itu mutlak, tanpa pertanyaan,
+the future of the language.
+
+12
+00: 00: 39,494 --> 00: 00: 41,520
+Masa depan bahasa yang tak terelakkan.
+
+13
+00: 00: 41.520 --> 00: 00: 43.120
+Semakin banyak yang mereka tambahkan ke bahasa,
+
+14
+00: 00: 43.120 --> 00: 00: 48.590
+semakin banyak area permukaan yang mereka tambahkan
+yang membutuhkan atau mengartikan strict mode.
+
+15
+00: 00: 48.590 --> 00: 00: 52.110
+Jadi pada titik ini, benar
+
+16
+00: 00: 52.110 --> 00: 00: 56.710
+dalam perhatian terburuk Anda untuk
+menghindari atau tidak mengadopsi strict mode.
+
+17
+00: 00: 57.820 --> 00: 01: 00.188
+Sekarang [BATUK] Saya ingin memperhatikan ini untuk
+sesaat dan
+
+18
+00: 01: 00.188 --> 00: 01: 04.423
+inilah mengapa saya di sini memiliki slide ini untuk berbicara
+tentang strict mode, karena itu benar-benar
+
+19
+00: 01: 04.423 --> 00: 01: 08.492
+adalah tentang pentingnya untuk memiliki kerangka yang tepat
+mengenai pendekatan pemikiran dengan strict mode.
+
+20
+00: 01: 08.492 --> 00: 01: 11.733
+Pertama,
+banyak orang berpikir tentang strict mode.
+
+21
+00: 01: 11.733 --> 00: 01: 17.663
+Kebalikan dari strict mode,
+mereka akan menyebut ini sebagai sloppy mode dan
+
+22
+00: 01: 17.663 --> 00: 01: 23.596
+Saya tidak setuju dengan interpretasi itu
+perbedaan antara yang buruk dengan yang baik,
+
+23
+00: 01: 23.596 --> 00: 01: 29.950
+Maksud saya, perbedaan antara strict dan
+apa pun yang di sebut non-strict.
+
+24
+00: 01: 31.760 --> 00: 01: 36.780
+Dengan cara yang sama saya tidak akan pernah
+berbicara mengenai basis kode yang punya
+
+25
+00: 01: 36.780 --> 00: 01: 42.290
+banyak baris kode untuk itu,
+Saya tidak akan menyebut itu basis kode yang gemuk.
+
+26
+00: 01: 42.290 --> 00: 01: 45.716
+Karena untuk saya,
+terminologi itu tidak bisa dibantah.
+
+27
+00: 01: 45.716 --> 00: 01: 47.201
+Tidak peka.
+
+28
+00: 01: 47.201 --> 00: 01: 48.584
+Itu dapat menyinggung perasaan orang-orang.
+
+29
+00: 01: 48.584 --> 00: 01: 53.947
+Jadi ada rasa di antara beberapa orang,
+banyak orang yang menjalankan spec
+
+30
+00: 01: 53.947 --> 00: 01: 59.525
+committee yang seharusnya tidak pernah Anda lakukan,
+janga pernah menulis kode dalam mode non-strict.
+
+31
+00: 01: 59.525 --> 00: 02: 04.070
+Dan kami harus membuat Anda merasa buruk,
+jika Anda masih menulis kode itu
+
+32
+00: 02: 04.070 --> 00: 02: 08.932
+dalam mode non-strict dan itu semua sama sekali tidak sama
+dengan pesan yang ingin saya sampaikan.
+
+33
+00: 02: 08.932 --> 00: 02: 12.750
+Itu seperti menghina atau
+cara menghukum untuk melihatnya.
+
+34
+00: 02: 12.750 --> 00: 02: 17.616
+Dan bahkan nama semacam itu menunjukkan seperti
+orang tua yang sombong yang tidak akan membiarkan
+
+35
+00: 02: 17.616 --> 00: 02: 21.889
+Anda keluar dan keluar dari jam 8 dan
+Anda seperti, ayolah.
+
+36
+00: 02: 21.889 --> 00: 02: 24.000
+Kenapa aku tidak boleh keluar jam 8?
+
+37
+00: 02: 24.000 --> 00: 02: 25.655
+Kenapa kamu harus membatasi saya?
+
+38
+00: 02: 25.655 --> 00: 02: 27.560
+Saya butuh kebebasan saya.
+
+39
+00: 02: 27.560 --> 00: 02: 31.451
+Bahkan nama itu menunjukkan sesuatu
+dari konotasi negatif dan
+
+40
+00: 02: 31.451 --> 00: 02: 33.371
+Saya pikir itu tidak membantu.
+
+41
+00: 02: 33.371 --> 00: 02: 37.630
+Jadi, saya ingin membingkai ulang untuk Anda cara berfikir
+yang benar mengenai strict mode.
+
+42
+00: 02: 37.630 --> 00: 02: 42.186
+Pertama, semua perubahan pada strict
+mode yang dibawa di ES5 semuanya terdaftar,
+
+43
+00: 02: 42.186 --> 00: 02: 43.518
+sebenarnya ada perubahan.
+
+44
+00: 02: 43.518 --> 00: 02: 47.490
+Mereka semua terdaftar dalam
+sebuah lampiran dari spec.
+
+45
+00: 02: 47.490 --> 00: 02: 49.032
+Saya pikir ini appendix E.
+
+46
+00: 02: 49.032 --> 00: 02: 50.030
+Tepat ada di spec.
+
+47
+00: 02: 50.030 --> 00: 02: 53.426
+Hanya ada daftar satu demi satu
+dan mereka semua memulainya seperti ini.
+
+48
+00: 02: 53.426 --> 00: 02: 56.160
+Ini adalah kesalahan jika dan kemudian dot, dot, dot.
+
+49
+00: 02: 56.160 --> 00: 02: 57.580
+Itu hanya mengisinya.
+
+50
+00: 02: 57.580 --> 00: 03: 00.730
+Pada dasarnya, itu merupaakn satu set
+daftar keluar yang menjadi
+
+51
+00: 03: 00.730 --> 00: 03: 03.320
+error yang dulunya tidak error.
+
+52
+00: 03: 03.320 --> 00: 03: 06.292
+Jadi, rasanya seperti itu
+sebuah pembatasan terhadapmu.
+
+53
+00: 03: 06.292 --> 00: 03: 11.003
+Faktanya,
+ada beberapa yang sangat menonjol
+
+54
+00: 03: 11.003 --> 00: 03: 16.052
+pada anggota komunitas kami yang
+telah secara vokal mengatakan pada banyak orang
+
+55
+00: 03: 16.052 --> 00: 03: 20.690
+pada kesempatan itu mereka
+menolak strict mode.
+
+56
+00: 03: 20.690 --> 00: 03: 25.229
+Bahwa mereka tidak mau beralih dari hal itu,
+karena mereka tidak ingin dibatasi
+
+57
+00: 03: 25.229 --> 00: 03: 29.007
+dari melakukan hal-hal ke titik itu
+salah satu dari mereka mengatakan lebih jauh,
+
+58
+00: 03: 29.007 --> 00: 03: 33.543
+aku akan tulis semua kode saya seperti itu
+dan itu akan menjadi rusak jika seseorang mencoba untuk menjalankannya
+
+59
+00: 03: 33.543 --> 00: 03: 34.548
+dalam strict mode.
+
+60
+00: 03: 34.548 --> 00: 03: 36.452
+Seperti bukan hanya aku tidak akan memperhatikan,
+
+61
+00: 03: 36.452 --> 00: 03: 39.140
+Saya juga akan mencoba membuat
+kode saya rusak dalam strict mode.
+
+62
+00: 03: 40.600 --> 00: 03: 41.860
+Itu adalah kesepakatan yang ekstrim.
+
+63
+00: 03: 43.600 --> 00: 03: 46.188
+Itu bukan sesuatu yang
+kita harus tiru.
+
+64
+00: 03: 48.600 --> 00: 03: 50.585
+& gt; & gt; Kyle Simpson: Jadi,
+bagaimana seharusnya kita berpikir tentang strict mode?
+
+65
+00: 03: 50.585 --> 00: 03: 54.550
+Apa pola pikir yang tepat yang dimiliki
+strict mode?
+
+66
+00: 03: 54.550 --> 00: 03: 56.320
+Biarkan saya mencoba membantu dengan itu.
+
+67
+00: 03: 56.320 --> 00: 03: 58.900
+Jika Anda lalui dan
+Anda membaca semua item di lampiran
+
+68
+00: 03: 59.940 --> 00: 04: 02.940
+alih-alih membacanya sebagai pembatasan,
+alih-alih membaca hal-hal itu di mana
+
+69
+00: 04: 02.940 --> 00: 04: 06.110
+mereka menampar pergelangan tangan Anda dan
+mengatakan, berhenti melakukan hal itu.
+
+70
+00: 04: 06.110 --> 00: 04: 07.326
+Saya ingin Anda memikirkannya seperti ini.
+
+71
+00: 04: 07.326 --> 00: 04: 11.725
+Karena sebenarnya,
+semua hal-hal yang terdaftar di sana
+
+72
+00: 04: 11.725 --> 00: 04: 15.779
+adalah hal-hal yang Anda lakukan dalam kode
+anda yang membuatnya lebih sulit untuk
+
+73
+00: 04: 15.779 --> 00: 04: 20.541
+engine JavaScript mengoptimalkan
+kinerja kode Anda.
+
+74
+00: 04: 23.720 --> 00: 04: 25.486
+& gt; & gt; Kyle Simpson: Jika Anda lalui dan
+kamu bilang,
+
+75
+00: 04: 25.486 --> 00: 04: 28.106
+mengapa saya tidak bisa secara implisit melakukan variabel global?
+
+76
+00: 04: 28.106 --> 00: 04: 29.805
+Yah, kamu tahu kenapa?
+
+77
+00: 04: 29.805 --> 00: 04: 34.320
+Kebanyakan alasan pragmatis berarti selain dari
+fakta bahwa itu kesalahan dalam desain yang buruk,
+
+78
+00: 04: 34.320 --> 00: 04: 38.138
+alasan paling pragmatis adalah mengapa kamu
+seharusnya tidak melakukannya karena itu
+
+79
+00: 04: 38.138 --> 00: 04: 42.273
+lebih lambat untuk membuat variabel saat runtime
+daripada harus memodifikasi leksikal yang ada
+
+80
+00: 04: 42.273 --> 00: 04: 45.670
+dalam scope sebagai perlawanan untuk bisa
+mencari tahu pada waktu kompilasi.
+
+81
+00: 04: 47.260 --> 00: 04: 48.750
+Itu lebih lambat.
+
+82
+00: 04: 48.750 --> 00: 04: 50.850
+Ini akan memperlambat
+eksekusi kode Anda.
+
+83
+00: 04: 52.450 --> 00: 04: 54.014
+Jadi, jika Anda melewatinya
+masing-masing dari ini dan
+
+84
+00: 04: 54.014 --> 00: 04: 56.181
+Anda beralasan mengapa
+mereka harus sudah membatasi itu?
+
+85
+00: 04: 56.181 --> 00: 04: 57.559
+Mengapa mereka mencegahnya?
+
+86
+00: 04: 57.559 --> 00: 05: 01.260
+Sebagian besar dari mereka adalah hal-hal di mana jika Anda
+melakukan hal itu di kode Anda,
+
+87
+00: 05: 01.260 --> 00: 05: 03.720
+Anda membuat kode Anda
+lebih sulit dioptimalkan.
+
+88
+00: 05: 04.930 --> 00: 05: 10.170
+Jika dilihat dari perspektif itu, strict
+mode benar-benar seperti sekumpulan saran
+
+89
+00: 05: 10.170 --> 00: 05: 14.200
+yang benar-benar harus Anda ikuti,
+sehingga kode Anda akan berjalan lebih cepat.
+
+90
+00: 05: 16.230 --> 00: 05: 20.820
+Dan saya tidak tahu tentang Anda, tetapi saya butuh semua
+bantuan agar saya bisa mendapatkan kode yang optimal.
+
+91
+00: 05: 21.840 --> 00: 05: 23.280
+Jadi, daftarkan saya.
+
+92
+00: 05: 23.280 --> 00: 05: 26.340
+Jika ada mode yang bisa saya patuhi
+untuk membantu saya dari membuat kesalahan yang
+
+93
+00: 05: 26.340 --> 00: 05: 30.300
+bodoh yang tidak sengaja membuat
+kode saya melambat, saya naik.
+
+94
+00: 05: 31.940 --> 00: 05: 37.439
+Tetapi saya tidak memiliki pola pikir yang benar, yang
+mengapa saya adalah semacam adopter yang terlambat dan di sana
+
+95
+00: 05: 37.439 --> 00: 05: 42.722
+juga ada satu set mitos tentang strict mode
+dan aku ingin membersihkan mitos-mitos itu untukmu.
+
+96
+00: 05: 42.722 --> 00: 05: 45.630
+Salah satu mitos itu baik,
+kami belum menggunakan strict mode.
+
+97
+00: 05: 45.630 --> 00: 05: 49.446
+Karena beberapa library
+kami tidak menggunakan strict mode.
+
+98
+00: 05: 49.446 --> 00: 05: 51.375
+Kami me-load jQuery dan
+itu tidak terpakai atau apa pun.
+
+99
+00: 05: 51.375 --> 00: 05: 53.196
+Maksud saya, mereka semua menggunakannya sekarang.
+
+100
+00: 05: 53.196 --> 00: 05: 55.605
+Tapi seperti yang biasa kamu katakan,
+Yah, saya tidak tahu.
+
+101
+00: 05: 55.605 --> 00: 05: 59.745
+Saya menggunakan beberapa seperti kode pihak ketiga dan
+mereka belum memperbarui kode mereka seperti 15
+
+102
+00: 05: 59.745 --> 00: 06: 03.230
+tahun dan mereka tidak menggunakan strict mode,
+jadi kami tidak menggunakan .
+
+103
+00: 06: 04.330 --> 00: 06: 07.944
+Ini adalah kesalahpahaman mendasar
+bagaimana mekanisme bekerja.
+
+104
+00: 06: 07.944 --> 00: 06: 08.617
+Faktanya,
+
+105
+00: 06: 08.617 --> 00: 06: 11.050
+ini kesalahpahaman mendasar
+tentang cara kerja JavaScript itu sendiri.
+
+106
+00: 06: 12.850 --> 00: 06: 17.483
+Program JavaScript berbasis file.
+
+107
+00: 06: 17.483 --> 00: 06: 19.404
+Anda memiliki aplikasi
+Anda mengirim dalam produksi.
+
+108
+00: 06: 19.404 --> 00: 06: 21.770
+Sebagian besar dari Anda mungkin bekerja di aplikasi web.
+
+109
+00: 06: 21.770 --> 00: 06: 26.340
+Sebagian besar dari Anda mungkin telah membangun
+aplikasi yang berasal dari mana saja
+
+110
+00: 06: 26.340 --> 00: 06: 31.190
+beberapa hingga selusin, mungkin beberapa
+ratus file JavaScript di dalamnya dan
+
+111
+00: 06: 31.190 --> 00: 06: 33.230
+Anda menganggap itu sebagai satu program.
+
+112
+00: 06: 33.230 --> 00: 06: 34.630
+Itu bukan bagaiman cara JavaScript berfikir.
+
+113
+00: 06: 35.640 --> 00: 06: 38.740
+Setiap file ada di dalam
+program yang sepenuhnya terpisah.
+
+114
+00: 06: 40.960 --> 00: 06: 44.520
+Sekarang, apa yang mereka bagikan adalah mereka
+semua berbagi global scope.
+
+115
+00: 06: 44.520 --> 00: 06: 45.020
+Jadi, itu bagus.
+
+116
+00: 06: 46.100 --> 00: 06: 50.300
+Itu memudahkan kita untuk menggabungkan
+beberapa program menjadi satu aplikasi.
+
+117
+00: 06: 50.300 --> 00: 06: 54.060
+Namun dari perspektif JavaScript dan
+aturan yang berlaku,
+
+118
+00: 06: 54.060 --> 00: 06: 57.950
+jika saya menggunakan strict di atas file ini
+dan kemudian saya memuat secara keseluruhan file terpisah
+
+119
+00: 06: 57.950 --> 00: 07: 01.940
+dengan satu set kode terpisah dan
+file itu tidak memiliki penggunaan yang strict
+
+120
+00: 07: 01.940 --> 00: 07: 07.260
+direktif di dalamnya, kode itu tidak
+patuh pada peraturan strict mode.
+
+121
+00: 07: 07.260 --> 00: 07: 10.670
+Hanya kode yang saya maksud
+untuk menempatkan penggunaan strict di dalamnya.
+
+122
+00: 07: 10.670 --> 00: 07: 15.056
+Jadi, jika aplikasi Anda memiliki beberapa
+file yang dapat menjadi strict mode dan
+
+123
+00: 07: 15.056 --> 00: 07: 19.382
+beberapa tidak bisa,
+berhenti khawatir tentang orang yang tidak bisa.
+
+124
+00: 07: 19.382 --> 00: 07: 20.810
+Fokus saja pada yang bisa.
+
+125
+00: 07: 22.810 --> 00: 07: 27.307
+Satu-satunya saat ini yang benar-benar menjadi masalah
+adalah ketika Anda melakukan sesuatu yang konyol seperti ambil
+
+126
+00: 07: 27.307 --> 00: 07: 31.541
+kode orang lain secara sewenang-wenang dan
+gabungkan dengan kode Anda.
+
+127
+00: 07: 31.541 --> 00: 07: 36.022
+Itu ide yang buruk untuk sejumlah besar
+alasan yang mana tidak sedikit,
+
+128
+00: 07: 36.022 --> 00: 07: 40.012
+Anda sekarang meminta kode itu untuk dijalankan
+dalam file strict mode Anda dan
+
+129
+00: 07: 40.012 --> 00: 07: 41.150
+mungkin tidak berfungsi.
+
+130
+00: 07: 42.660 --> 00: 07: 45.072
+Jadi, jangan dalam keadaan apa pun.
+
+131
+00: 07: 45.072 --> 00: 07: 48.180
+Dan jika Anda melakukannya sekarang,
+pulanglah dan ubah malam ini.
+
+132
+00: 07: 48.180 --> 00: 07: 52.789
+Jangan memaketkan kode orang lain
+yang tidak tepercaya dengan kode anda yang tepercaya.
+
+133
+00: 07: 52.789 --> 00: 07: 56,990
+Itu bukan ide yang baik untuk
+alasan keamanan, untuk alasan penyimpanan, untuk
+
+134
+00: 07: 56,990 --> 00: 07: 58.355
+alasan kinerja.
+
+135
+00: 07: 58.355 --> 00: 08: 00.560
+Itu bukan ide yang bagus.
+
+136
+00: 08: 00.560 --> 00: 08: 04.982
+Minimal, Anda harus memiliki bundel
+dari hal yang tidak terpercaya yang berasal dari orang lain
+
+137
+00: 08: 04.982 --> 00: 08: 07.941
+dan sekumpulan hal tepercaya yang Anda tulis.
+
+138
+00: 08: 07.941 --> 00: 08: 08.920
+Biarkan keduanya terpisah.
+
+139
+00: 08: 10.360 --> 00: 08: 13.660
+Dan hal-hal yang Anda tulis, Anda harus
+sepenuhnya memegang kendali apakah itu strict mode atau
+
+140
+00: 08: 13.660 --> 00: 08: 14.440
+bukan.
+
+141
+00: 08: 16.110 --> 00: 08: 19.838
+Jika Anda memiliki hal-hal yang tidak strict
+namun, jangan gabungkan itu ke dalam bundel.
+
+142
+00: 08: 19.838 --> 00: 08: 21.490
+Buatlah dengan bundel ketiga, misalnya.
+
+143
+00: 08: 23.240 --> 00: 08: 27.120
+Hal lain yang perlu diketahui tentang strict
+mode adalah tidak semuanya atau tidak sama sekali.
+
+144
+00: 08: 28.320 --> 00: 08: 30.260
+Saya telah meletakkannya di bagian atas file ini,
+
+145
+00: 08: 30.260 --> 00: 08: 33.324
+yang berarti menerapkannya
+pada seluruh isi file.
+
+146
+00: 08: 33.324 --> 00: 08: 38.076
+Tetapi jika karena alasan tertentu ada beberapa
+fungsi dalam kode ini yang tidak bisa dilakukan
+
+147
+00: 08: 38.076 --> 00: 08: 43.140
+dan yang lain bisa, saya bisa menggunakan
+strict pada fungsi berdasarkan basis fungsi.
+
+148
+00: 08: 44.790 --> 00: 08: 46.582
+Jadi, saya bisa memulai dengan pergi dan
+
+149
+00: 08: 46.582 --> 00: 08: 49.846
+menempatkan mode strict Anda di setiap
+fungsi tunggal dalam file saya.
+
+150
+00: 08: 49.846 --> 00: 08: 53.278
+Dan kemudian jika ada masalah
+jika saya terkena kesalahan atau bug atau
+
+151
+00: 08: 53.278 --> 00: 08: 57.489
+Saya merusak sesuatu, saya bisa pergi
+memperbaikinya, itulah yang seharusnya saya lakukan.
+
+152
+00: 08: 57.489 --> 00: 09: 01.716
+Atau paling tidak, ambil saja yang menggunakan
+strict untuk satu fungsi yang menyinggung,
+
+153
+00: 09: 01.716 --> 00: 09: 04.550
+meninggalkannya di semua tempat
+yang lain di mana itu berfungsi dengan baik.
+
+154
+00: 09: 06.400 --> 00: 09: 10.462
+Mencegah saya melakukan hal-hal yang bodoh
+seperti menciptakan implisit global atau
+
+155
+00: 09: 10.462 --> 00: 09: 13.562
+mengulangi nama parameter,
+atau hal-hal lain seperti itu.
+
+156
+00: 09: 13.562 --> 00: 09: 17.302
+Jadi Anda bisa menjalankan fungsi berdasarkan fungsi
+dasar dan Anda harus memperbaiki masalah tersebut
+
+157
+00: 09: 17.302 --> 00: 09: 21.770
+daripada menutupi atau mengabaikannya,
+tetapi Anda dapat melakukannya sedikit demi sedikit.
+
+158
+00: 09: 21.770 --> 00: 09: 26.026
+Dan akhirnya, suatu hari nanti setiap fungsi di
+file Anda akan memiliki penggunaan yang ketat di dalamnya
+
+159
+00: 09: 26.026 --> 00: 09: 28.566
+dan tidak akan ada bug dan
+lalu tebak apa?
+
+160
+00: 09: 28.566 --> 00: 09: 33.424
+Hanya pergi mengambil semua penggunaan
+fungsi strict dan memasangnya di atas.
+
+161
+00: 09: 33.424 --> 00: 09: 35.719
+Masalah terpecahkan.
+
+162
+00: 09: 35.719 --> 00: 09: 40.619
+Jadi mitos kedua adalah yang tidak Anda miliki
+untuk mengadopsi strict mode semua atau tidak sama sekali, tapi
+
+163
+00: 09: 40.619 --> 00: 09: 42.990
+Saya ulangi peringatan saya sebelumnya.
+
+164
+00: 09: 42.990 --> 00: 09: 44.873
+Apa yang kamu tunggu?
+
+165
+00: 09: 44.873 --> 00: 09: 48.660
+Ini adalah masa depan bahasa dan
+ini adalah cara kita menulis kode.
+
+166
+00: 09: 48.660 --> 00: 09: 52.216
+Masuki kebiasaan memulai setiap
+file dan saya masih harus memaksakan diri untuk
+
+167
+00: 09: 52.216 --> 00: 09: 54.880
+ingat, tapi
+mereka menggunakan strict mode di bagian atas setiap file.
+
+168
+00: 09: 54.880 --> 00: 09: 57.799
+Mungkin ada beberapa hari di masa depan dan
+Saya sangat berharap untuk itu
+
+169
+00: 09: 57.799 --> 00: 10: 00.990
+di mana kita tidak punya
+pilihan untuk memilih strict mode.
+
+170
+00: 10: 00.990 --> 00: 10: 03.029
+Kita harus memilih keluar dari strict mode.
+
+171
+00: 10: 03.029 --> 00: 10: 04.080
+Saya harap hari itu tiba.
+
+172
+00: 10: 04.080 --> 00: 10: 07.314
+Tapi sekarang,
+Anda harus masuk ke kebiasaan itu.
+
+173
+00: 10: 07.314 --> 00: 10: 09.544
+Jika Anda sudah menggunakan trans
+filer seperti babble atau yang lain,
+
+174
+00: 10: 09.544 --> 00: 10: 11.298
+itu sudah menempatkan Anda dengan
+kode ke strict mode.
+
+175
+00: 10: 11.298 --> 00: 10: 12.760
+Jadi, kamu akan baik-baik saja.
+
+176
+00: 10: 12.760 --> 00: 10: 15.610
+Tetapi jika Anda tidak melakukan itu, pergi dan
+tempatkan ke semua program Anda.
